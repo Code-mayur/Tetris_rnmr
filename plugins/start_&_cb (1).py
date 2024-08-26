@@ -188,7 +188,7 @@ async def cb_handler(client, query: CallbackQuery):
         # Send the QR code image in a separate message without any caption and delete it after 5 minutes
         qr_code_message = await client.send_photo(
             chat_id=user_id,
-            photo="https://telegra.ph/file/fe4430875b45ad97a843e.jpg"
+            photo="https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
         )
         await asyncio.sleep(300)  # Wait for 5 minutes (300 seconds)
         await qr_code_message.delete()
@@ -203,7 +203,7 @@ async def cb_handler(client, query: CallbackQuery):
         # Send the QR code image in a separate message without any caption and delete it after 5 minutes
         qr_code_message = await client.send_photo(
             chat_id=user_id,
-            photo="https://telegra.ph/file/fe4430875b45ad97a843e.jpg"
+            photo="https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
         )
         await asyncio.sleep(300)  # Wait for 5 minutes (300 seconds)
         await qr_code_message.delete()
