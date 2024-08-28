@@ -93,7 +93,7 @@ async def restart_bot(b, m):
     all_users = await db.get_all_users()
     async for user in all_users:
         try:
-            restart_msg = f"ʜᴇʏ, {(await b.get_users(user['_id'])).mention}\n\n**🔄 ᴘʀᴏᴄᴇssᴇs sᴛᴏᴘᴘᴇᴅ. ʙᴏᴛ ɪs ʀᴇsᴛᴀʀᴛɪɴɢ.....\n\n✅️ ʙᴏᴛ ɪs ʀᴇsᴛᴀʀᴛᴇᴅ. ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ.**"
+            restart_msg = f"**hey, {(await b.get_users(user['_id'])).mention}\n\nbot  is  online , with  new  version . send  /start  command  also  tell  admin  if  gets  any  error**"
             await b.send_message(user['_id'], restart_msg)
             success += 1
         except InputUserDeactivated:
