@@ -179,9 +179,9 @@ duration - 1 month
 """
     
     RKN_PROGRESS = """<b>\n
-🧨**sᴘᴇᴇᴅ-** {3}/s                           unlock 2x speed
+[🧨](https://telegra.ph/file/a10607f63654828a06194.mp4)**sᴘᴇᴇᴅ-** {3}/s                             [unlock 2x speed](https://telegra.ph/How-to-increase-speed-08-28)
 📦**ꜱɪᴢᴇ-**  {1} of {2}
-[⏳](https://telegra.ph/file/a10607f63654828a06194.mp4)**ᴇᴛᴀ-**  {4}"""
+⏳**ᴇᴛᴀ-**  {4}"""
 
 # Rkn Developer 
 # Don't Remove Credit 😔
