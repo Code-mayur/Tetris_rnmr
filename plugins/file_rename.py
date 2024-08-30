@@ -22,7 +22,7 @@ async def rename_start(client, message):
         filename = file.file_name
         if not Config.STRING_SESSION:
             if file.file_size > 2000 * 1024 * 1024:
-                 return await message.reply_text("**ɪɴᴠᴀʟɪᴅ  ᴀᴄᴛɪᴏɴ,  ʏᴏᴜʀ  ᴘʟᴀɴ  ᴅᴏᴇsɴ'ᴛ  sᴜᴘᴘᴏʀᴛ  ᴇᴅɪᴛɪɴɢ  2ɢʙ+  ʙɪɢ   ғɪʟᴇ,  ᴜᴘɢʀᴀᴅᴇ  ʏᴏᴜʀ  ᴘʟᴀɴ**")
+                 return await message.reply_text("**string season is not added in the bot . string season required for edit 2gb+ file . told admin about this**")
 
         try:
             await message.reply_text(
