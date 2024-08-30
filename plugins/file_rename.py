@@ -22,7 +22,7 @@ async def rename_start(client, message):
         filename = file.file_name
         if not Config.STRING_SESSION:
             if file.file_size > 2000 * 1024 * 1024:
-                 return await message.reply_text("**string season is not added in the bot . string season required for edit 2gb+ file . told admin about this**")
+                 return await message.reply_text("**ɪɴᴠᴀʟɪᴅ  ᴀᴄᴛɪᴏɴ,  ʏᴏᴜʀ  ᴘʟᴀɴ  ᴅᴏᴇsɴ'ᴛ  sᴜᴘᴘᴏʀᴛ  ᴇᴅɪᴛɪɴɢ  2ɢʙ+  ʙɪɢ   ғɪʟᴇ,  ᴜᴘɢʀᴀᴅᴇ  ʏᴏᴜʀ  ᴘʟᴀɴ**")
 
         try:
             await message.reply_text(
@@ -34,7 +34,7 @@ async def rename_start(client, message):
         except FloodWait as e:
             await sleep(e.value)
             await message.reply_text(
-            text=f"**ᴛʏᴘᴇ  ɴᴇᴡ  ғɪʟᴇ  ɴᴀᴍᴇ  ᴏʀ  ᴄᴏᴘʏ  ᴘᴀsᴛᴇ  ᴏʟᴅ  ᴏɴᴇ**\n\n**📜ᴏʟᴅ  ғɪʟᴇ  ɴᴀᴍᴇ** :- `{filename}` \n\n #ad \n reserve for ad",
+            text=f"**📜ᴛʏᴘᴇ  ɴᴇᴡ  ғɪʟᴇ  ɴᴀᴍᴇ  ᴏʀ  ᴄᴏᴘʏ  ᴘᴀsᴛᴇ  ᴏʟᴅ  ᴏɴᴇ**\n\n**📜ᴏʟᴅ  ғɪʟᴇ  ɴᴀᴍᴇ** :- `{filename}` \n\n #ad \n reserve for ad",
 	    reply_to_message_id=message.id,  
 	    reply_markup=ForceReply(True)
         )
