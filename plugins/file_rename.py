@@ -63,8 +63,8 @@ async def rename_start(client, message):
     if file.file_size > 2000 * 1024 * 1024:  # Above 2GB requires premium
         if not has_premium:
             await message.reply_text(
-                f"2ɢʙ+ **ғɪʟᴇ ɴᴏᴛ sᴜᴘᴘᴏʀᴛᴇᴅ ғᴏʀ ғʀᴇᴇ ᴜsᴇʀs**\n\n"
-                f"**ᴜᴘɢʀᴀᴅᴇ ᴛᴏ** /premium **ғᴏʀ ᴇᴅɪᴛɪɴɢ** 2ɢʙ+ **ғɪʟᴇs**"
+                f"2ɢʙ+ **ғɪʟᴇ  ɴᴏᴛ  sᴜᴘᴘᴏʀᴛᴇᴅ  ғᴏʀ  ғʀᴇᴇ  ᴜsᴇʀs**\n\n"
+                f"**ᴜᴘɢʀᴀᴅᴇ  ᴛᴏ** /premium **ғᴏʀ  ᴇᴅɪᴛɪɴɢ** 2ɢʙ+ **ғɪʟᴇ**"
             )
             return  # Don't proceed further for free users with 2GB+ files
 
