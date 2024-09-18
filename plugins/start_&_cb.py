@@ -74,7 +74,7 @@ async def myplan(client, message):
 async def plans(client, message):
     user = message.from_user
     free_trial_status = await db.get_free_trial_status(user.id)
-    image_url = "https://telegra.ph/file/d34e9d7e64f8fd1e7ab69.jpg"
+    image_url = "https://envs.sh/wMW.jpg"
     
     if not await db.has_premium_access(user.id):
         if not free_trial_status:
