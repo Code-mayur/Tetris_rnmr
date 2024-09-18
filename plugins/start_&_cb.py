@@ -300,13 +300,13 @@ async def cb_handler(client, query: CallbackQuery):
     elif data == "status":
     # Fetching bot status data
         total_users = await db.total_users_count()
-        total_premium_users = await db.total_premium_users_count()
         uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - client.uptime))    
         recv = humanbytes(psutil.net_io_counters().bytes_recv)
         free_space = humanbytes(shutil.disk_usage(".").free)
+        random_number = random.randint(5, 15)
 
         await query.message.edit_text(
-            text=rkn.BOT_STATUS.format(uptime, total_users, total_premium_users, free_space, recv),
+            text=rkn.BOT_STATUS.format(uptime, total_users, random_number, free_space, recv),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data="source_code")
