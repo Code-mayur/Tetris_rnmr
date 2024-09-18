@@ -12,12 +12,6 @@ upgrade_button = InlineKeyboardMarkup([
      InlineKeyboardButton("◀️ɢᴏ ʙᴀᴄᴋ", callback_data="start")]
 ])
 
-upgrade_trial_button = InlineKeyboardMarkup([
-    [InlineKeyboardButton('🏷️ᴀᴄᴛɪᴠᴀᴛᴇ  ғʀᴇᴇ  ᴛʀɪᴀʟ  ᴘʟᴀɴ', callback_data='give_trial')],
-    [InlineKeyboardButton("🎟️ᴄʟɪᴄᴋ  ᴛᴏ  ʙᴜʏ  ᴘʀᴇᴍɪᴜᴍ", callback_data="about")],
-    [InlineKeyboardButton("📦ɢɪᴠᴇᴡᴀʏ", callback_data='upgrade'), InlineKeyboardButton("◀️ɢᴏ ʙᴀᴄᴋ", callback_data="start")]
-])
-
 start_button = InlineKeyboardMarkup([
     [InlineKeyboardButton('ᴄʜᴇᴄᴋ  ᴍᴏʀᴇ  ᴜsᴇғᴜʟʟ  ʙᴏᴛs🤖', callback_data='bots')],
     [InlineKeyboardButton('🪧ᴀᴅᴠᴇʀᴛɪsɪɴɢ', callback_data='source_code'),
@@ -76,7 +70,7 @@ async def myplan(client, message):
         )
 
 # Plans command handler
-@Client.on_message(filters.private & filters.command(["plans","upgrade"]))
+@Client.on_message(filters.private & filters.command(["premium","upgrade"]))
 async def plans(client, message):
     user = message.from_user
     free_trial_status = await db.get_free_trial_status(user.id)
@@ -84,7 +78,7 @@ async def plans(client, message):
     
     if not await db.has_premium_access(user.id):
         if not free_trial_status:
-            await message.reply_photo(photo=image_url, caption=rkn.UPGRADE.format(user.mention), reply_markup=upgrade_trial_button)
+            await message.reply_photo(photo=image_url, caption=rkn.UPGRADE.format(user.mention), reply_markup=upgrade_button)
         else:
             await message.reply_photo(photo=image_url, caption=rkn.UPGRADE.format(user.mention), reply_markup=upgrade_button)
     else:
