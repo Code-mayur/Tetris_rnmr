@@ -145,12 +145,12 @@ note-  automated  payment  interface  is  active
 note-  dont  subscribe  this, way  back  to  home 
 """
     BOT_STATUS = """
-**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ** v-4.5.3
+**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ** v-4.5.4
 
-- last updated `{}` ago
+- version cheked `{}` ago
 - `{}` users started the bot till now
-- avrg 339 regular users 
-- `{}` premium subscribers 
+- `{}` users active live now
+- avrg 339 regular users
 - `{}` spaces held in bot
 - `{}` cache ready to clear
 
