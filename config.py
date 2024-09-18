@@ -18,13 +18,13 @@ class Config(object):
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME","myvi")     
-    DB_URL = os.environ.get("DB_URL","mongodb+srv://mayuricvcv:K94cuW9HlF4pyQMD@cluster0.sqq7b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME","Digital")     
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://accessgithubf9:cgQbxuobUnCbH2F7@cluster0.ym73ib5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/97923b811ead934c30723.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7167553626').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002168404740"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002166385101"))
 
     #force subs
     try:
@@ -62,7 +62,7 @@ note-  automated  payment  interface  is  active"""
 **<u>ɢᴇᴛ  ᴘʀᴇᴍɪᴜᴍ  ᴛᴏ  ᴜɴʟᴏᴄᴋ  ғᴇᴀᴛᴜʀᴇs
 ᴄʜᴇᴄᴋ  ᴏᴜʀ  ᴀғғᴏʀᴅᴀʙʟᴇ  ᴘʟᴀɴ  ᴀʙᴏᴠᴇ</u>**
 
-🎉Offer -  first  time  subscribers  gets  extra  days
+🎉Offer -  first  time  buyers  gets  extra  days
 
 **ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ  ᴛᴏ  ʙᴜʏ  ᴘʀᴇᴍɪᴜᴍ  ᴘʟᴀɴ**
     """
@@ -255,14 +255,14 @@ click 👇🏻here to check bot users engagement """
 - just  send  public  account  link
 
 ⭕️**ᴍᴏʀᴇ  ᴄᴏᴍᴍɪɴɢ  sᴏᴏɴ**
--bla  bla  bla  bla  bla  bla  bla
--aah raha  hai  jaldi
+- bla  bla  bla  bla  bla  bla  bla
+- aah raha  hai  jaldi
 
 **ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ  ᴛᴏ  ᴇxᴘʟᴏʀᴇ  ᴛʜᴏsᴇ  ʙᴏᴛs**
 """
     
     RKN_PROGRESS = """<b>\n
-[🧨](https://telegra.ph/file/a10607f63654828a06194.mp4)**sᴘᴇᴇᴅ-** {3}/s                        [unlock 2x speed](https://telegra.ph/How-to-increase-speed-08-28)
+[🧨](https://telegra.ph/file/a10607f63654828a06194.mp4)**sᴘᴇᴇᴅ-** {3}/s                    [unlock 2x speed](https://telegra.ph/How-to-increase-speed-08-28)
 📦**ꜱɪᴢᴇ-**  {1} of {2}
 ⏳**ᴇᴛᴀ-**  {4}"""
 
