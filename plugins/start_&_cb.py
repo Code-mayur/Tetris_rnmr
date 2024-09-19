@@ -65,12 +65,12 @@ async def myplan(client, message):
         )
     else:
         await message.reply_text(
-            f"**ɪɴᴠᴀʟɪᴅ  ᴀᴄᴛɪᴏɴ , ᴜᴘɢʀᴀᴅᴇ  ᴛᴏ  ᴘʀᴇᴍɪᴜᴍ\nᴄʜᴇᴄᴋᴏᴜᴛ  ᴘʟᴀɴs  ʜᴇʀᴇ👉🏻 sᴇɴᴅ  /plans**\n\n"
+            f"**ɪɴᴠᴀʟɪᴅ  ᴀᴄᴛɪᴏɴ , ᴜᴘɢʀᴀᴅᴇ  ᴛᴏ  ᴘʀᴇᴍɪᴜᴍ\nᴄʜᴇᴄᴋᴏᴜᴛ  ᴘʟᴀɴs,  ᴄʟɪᴄᴋ  ʜᴇʀᴇ👉🏻** /premium\n\n"
             f"#ad\nreserve for ad"
         )
 
 # Plans command handler
-@Client.on_message(filters.private & filters.command(["premium","upgrade"]))
+@Client.on_message(filters.private & filters.command(["premium","upgrade",]))
 async def plans(client, message):
     user = message.from_user
     free_trial_status = await db.get_free_trial_status(user.id)
