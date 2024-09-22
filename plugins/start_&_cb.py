@@ -211,25 +211,21 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.TMON,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴘʀᴏᴄᴇᴇᴅ ᴛᴏ ᴘᴀʏᴍᴇɴᴛ💰", url="https://your-payment-link.com")
+                InlineKeyboardButton("ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💰", url="https://bu2terfly.github.io/my/redirect.html?product=product4")
             ],[
                 InlineKeyboardButton("ᴅᴏᴜʙᴛ", url="https://t.me/Tetris_admino_bot"),
-                InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "retry_payment")
+                InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "about")
             ]])
         )
-
-    # Wait for 30 seconds before updating the button
-        await sleep(30)
-    
-    # Update the buttons after 30 seconds
+        await sleep(23)
         await query.message.edit_text(
             text=rkn.TMON,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ ✅", callback_data="paid_confirmed")
+                InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅", callback_data="final")
             ],[
-                InlineKeyboardButton("ʀᴇᴛʀʏ ᴘᴀʏᴍᴇɴᴛ", callback_data="retry_payment"),
-                InlineKeyboardButton("ᴀᴅᴍɪɴ", url="retry_payment")
+                InlineKeyboardButton("♻️ʀᴇᴛʀʏ", callback_data="about"),
+                InlineKeyboardButton("ᴀᴅᴍɪɴ🛸", url="https://t.me/tetris_admino_bot")
             ]])
         )
 
