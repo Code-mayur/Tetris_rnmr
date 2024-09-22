@@ -205,18 +205,34 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "upgrade")
              ]])          
         ) 
-      
+
     elif data == "tmon":
         await query.message.edit_text(
             text=rkn.TMON,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴘʀᴏᴄᴇᴇᴅ ᴛᴏ ᴘᴀʏᴍᴇɴᴛ💰", callback_data = "tmon2")
+                InlineKeyboardButton("ᴘʀᴏᴄᴇᴇᴅ ᴛᴏ ᴘᴀʏᴍᴇɴᴛ💰", url="https://your-payment-link.com")
             ],[
                 InlineKeyboardButton("ᴅᴏᴜʙᴛ", url="https://t.me/Tetris_admino_bot"),
-                InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "upgrade")
-             ]])
+                InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "retry_payment")
+            ]])
         )
+
+    # Wait for 30 seconds before updating the button
+        await sleep(30)
+    
+    # Update the buttons after 30 seconds
+        await query.message.edit_text(
+            text=rkn.TMON,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup([[
+                InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ ✅", callback_data="paid_confirmed")
+            ],[
+                InlineKeyboardButton("ʀᴇᴛʀʏ ᴘᴀʏᴍᴇɴᴛ", callback_data="retry_payment"),
+                InlineKeyboardButton("ᴀᴅᴍɪɴ", url="retry_payment")
+            ]])
+        )
+
 
     elif data == "tif":
         await query.message.edit_text(
