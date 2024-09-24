@@ -71,7 +71,7 @@ note-  automated  payment  interface  is  active"""
      ~ [ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ](https://telegra.ph/Utxgucyifoy-09-17)
      ᴏʀ ~ ᴄʜᴇᴄᴋ  ᴀʙᴏᴠᴇ  ᴘɪᴄᴛᴜʀᴇ
 
-ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .  ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help**
+ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .  ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ** \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help
 """
 
     MON = """
@@ -83,7 +83,7 @@ note-  automated  payment  interface  is  active"""
      ~ [ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ](https://telegra.ph/Utxgucyifoy-09-17)
      ᴏʀ  ~ ᴄʜᴇᴄᴋ  ᴀʙᴏᴠᴇ  ᴘɪᴄᴛᴜʀᴇ
 
-ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help**
+ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ** \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help
 """
 
     TMON = """
@@ -95,7 +95,7 @@ note-  automated  payment  interface  is  active"""
      ~ [ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ](https://telegra.ph/Utxgucyifoy-09-17)
      ᴏʀ  ~ ᴄʜᴇᴄᴋ  ᴀʙᴏᴠᴇ  ᴘɪᴄᴛᴜʀᴇ
 
-ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help**
+ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ** \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help
 """
 
     TIF = """
@@ -109,7 +109,7 @@ note-  automated  payment  interface  is  active"""
      ~ ғɪʟᴇ  ᴛᴏ  ʟɪɴᴋ  ʙᴏᴛ  ᴀᴄᴄᴇss  
      ~[ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ](https://telegra.ph/bundle-plan-features-09-18)
 
-ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help**
+ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ** \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help
 """
 
     FMON = """
@@ -123,7 +123,7 @@ note-  automated  payment  interface  is  active"""
      ~ ғɪʟᴇ  ᴛᴏ  ʟɪɴᴋ  ʙᴏᴛ  ᴀᴄᴄᴇss  
      ~[ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ](https://telegra.ph/bundle-plan-features-09-18)
 
-ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help**
+ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ** \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help
 """
     
     TIME = """
