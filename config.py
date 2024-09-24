@@ -1,9 +1,4 @@
-# (c) @RknDeveloperr
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
-# Update Channel @Digital_Botz & @DigitalBotz_Support
+
 
 import re, os, time
 id_pattern = re.compile(r'^.\d+$') 
@@ -74,10 +69,9 @@ note-  automated  payment  interface  is  active"""
 
 **🪧ʙᴇɴᴇғɪᴛs -
      ~ [ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ](https://telegra.ph/Utxgucyifoy-09-17)
-     ᴏʀ
-     ~ ᴄʜᴇᴄᴋ  ᴀʙᴏᴠᴇ  ᴘɪᴄᴛᴜʀᴇ
+     ᴏʀ ~ ᴄʜᴇᴄᴋ  ᴀʙᴏᴠᴇ  ᴘɪᴄᴛᴜʀᴇ
 
-ᴄʟɪᴄᴋ  'ᴘʀᴏᴄᴇᴇᴅ  ᴛᴏ  ᴘᴀʏᴍᴇɴᴛ'  ғᴏʀ  ɴᴇxᴛ**
+ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .  ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help**
 """
 
     MON = """
@@ -87,10 +81,9 @@ note-  automated  payment  interface  is  active"""
 
 **🪧ʙᴇɴᴇғɪᴛs -
      ~ [ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ](https://telegra.ph/Utxgucyifoy-09-17)
-     ᴏʀ
-     ~ ᴄʜᴇᴄᴋ  ᴀʙᴏᴠᴇ  ᴘɪᴄᴛᴜʀᴇ
+     ᴏʀ  ~ ᴄʜᴇᴄᴋ  ᴀʙᴏᴠᴇ  ᴘɪᴄᴛᴜʀᴇ
 
-ᴄʟɪᴄᴋ  'ᴘʀᴏᴄᴇᴇᴅ  ᴛᴏ  ᴘᴀʏᴍᴇɴᴛ'  ғᴏʀ  ɴᴇxᴛ**
+ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help**
 """
 
     TMON = """
@@ -100,10 +93,9 @@ note-  automated  payment  interface  is  active"""
 
 **🪧ʙᴇɴᴇғɪᴛs -
      ~ [ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ](https://telegra.ph/Utxgucyifoy-09-17)
-     ᴏʀ
-     ~ ᴄʜᴇᴄᴋ  ᴀʙᴏᴠᴇ  ᴘɪᴄᴛᴜʀᴇ
+     ᴏʀ  ~ ᴄʜᴇᴄᴋ  ᴀʙᴏᴠᴇ  ᴘɪᴄᴛᴜʀᴇ
 
-ᴄʟɪᴄᴋ  'ᴘʀᴏᴄᴇᴇᴅ  ᴛᴏ  ᴘᴀʏᴍᴇɴᴛ'  ғᴏʀ  ɴᴇxᴛ**
+ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help**
 """
 
     TIF = """
@@ -117,7 +109,7 @@ note-  automated  payment  interface  is  active"""
      ~ ғɪʟᴇ  ᴛᴏ  ʟɪɴᴋ  ʙᴏᴛ  ᴀᴄᴄᴇss  
      ~[ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ](https://telegra.ph/bundle-plan-features-09-18)
 
-ᴄʟɪᴄᴋ  'ᴘʀᴏᴄᴇᴇᴅ  ᴛᴏ  ᴘᴀʏᴍᴇɴᴛ'  ғᴏʀ  ɴᴇxᴛ**
+ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help**
 """
 
     FMON = """
@@ -131,7 +123,7 @@ note-  automated  payment  interface  is  active"""
      ~ ғɪʟᴇ  ᴛᴏ  ʟɪɴᴋ  ʙᴏᴛ  ᴀᴄᴄᴇss  
      ~[ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ](https://telegra.ph/bundle-plan-features-09-18)
 
-ᴄʟɪᴄᴋ  'ᴘʀᴏᴄᴇᴇᴅ  ᴛᴏ  ᴘᴀʏᴍᴇɴᴛ'  ғᴏʀ  ɴᴇxᴛ**
+ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ .   ᴀɴᴅ  ᴀғᴛᴇʀ  ᴄᴏᴍᴘʟᴇᴛɪɴɢ  ᴘᴀʏᴍᴇɴᴛ   ᴄʟɪᴄᴋ   "ᴘᴀɪᴅ✅"  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ᴄᴏɴғɪʀᴍ  ᴘᴜʀᴄʜᴀsᴇ \nany  payment  related  issue  contact  [admin](https://t.me/tetris_admino_bot)  for  help**
 """
     
     TIME = """
@@ -145,12 +137,12 @@ note-  automated  payment  interface  is  active
 note-  dont  subscribe  this, way  back  to  home 
 """
     BOT_STATUS = """
-**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ** v-4.5.4
+**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ** v-4.5.7
 
 - version cheked `{}` ago
 - `{}` users started the bot till now
 - `{}` users active live now
-- avrg 339 regular users
+- avrg 346 regular users
 - `{}` spaces held in bot
 - `{}` cache ready to clear
 
@@ -193,57 +185,7 @@ starting at only **7ʀs / ᴅᴀʏ**
 contact  **ᴀᴅᴍɪɴ**  for more info and payment
 
 click 👇🏻here to check bot users engagement """
-    # ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-
-    FIFT = """
-**<u>ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ🔼  ǫʀ  ᴄᴏᴅᴇ  &  ᴘᴀʏ  ᴛʜᴇ  ᴇxᴀᴄᴛ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ  👇🏻sʜᴏᴡɪɴɢ  ʜᴇʀᴇ</u>
-
-ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ** - 3️⃣9️⃣₹ 
-
-🎉**offer**🎉 - first time subscribers get 2 days extra
-
-**ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ👇🏻  ʙᴜᴛᴛᴏɴ**
-"""
-
-    MONT = """
-**<u>ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ🔼  ǫʀ  ᴄᴏᴅᴇ  &  ᴘᴀʏ  ᴛʜᴇ  ᴇxᴀᴄᴛ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ  👇🏻sʜᴏᴡɪɴɢ  ʜᴇʀᴇ</u>
-
-ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ** - 5️⃣9️⃣₹ 
-
-🎉**offer**🎉 - first time subscribers get 5 days extra
-
-**ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ👇🏻  ʙᴜᴛᴛᴏɴ**
-"""
-
-    TMONT = """
-**<u>ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ🔼  ǫʀ  ᴄᴏᴅᴇ  &  ᴘᴀʏ  ᴛʜᴇ  ᴇxᴀᴄᴛ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ  👇🏻sʜᴏᴡɪɴɢ  ʜᴇʀᴇ</u>
-
-ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ** - 1️⃣5️⃣9️⃣₹ 
-
-🎉**offer**🎉 - no active offer for this plan
-
-**ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ👇🏻  ʙᴜᴛᴛᴏɴ**
-"""
-
-    TIFT = """
-**<u>ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ🔼  ǫʀ  ᴄᴏᴅᴇ  &  ᴘᴀʏ  ᴛʜᴇ  ᴇxᴀᴄᴛ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ  👇🏻sʜᴏᴡɪɴɢ  ʜᴇʀᴇ</u>
-
-ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ** - 1️⃣3️⃣9️⃣₹ 
-
-🎉**offer**🎉 - get a mystery gift or cashback 
-
-**ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ👇🏻  ʙᴜᴛᴛᴏɴ**
-"""
-
-    FMONT = """
-**<u>ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ🔼  ǫʀ  ᴄᴏᴅᴇ  &  ᴘᴀʏ  ᴛʜᴇ  ᴇxᴀᴄᴛ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ  👇🏻sʜᴏᴡɪɴɢ  ʜᴇʀᴇ</u>
-
-ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ** - 2️⃣4️⃣9️⃣₹ 
-
-🎉**offer**🎉 - get a mystery gift + cashback
-
-**ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ👇🏻  ʙᴜᴛᴛᴏɴ**
-"""
+    # ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
     
 
