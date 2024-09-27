@@ -242,8 +242,8 @@ async def cb_handler(client, query: CallbackQuery):
              ]])
         )
 
-        elif data == "fif2":
-        new_image_path = "https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
+    elif data == "fif2":
+        new_image_path = "https://envs.sh/S5B.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.FIFT),
             reply_markup=InlineKeyboardMarkup([[
