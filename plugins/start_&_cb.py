@@ -251,7 +251,7 @@ async def cb_handler(client, query: CallbackQuery):
 
       
     elif data == "mon2":
-        new_image_path = "https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
+        new_image_path = "https://envs.sh/S5n.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.MONT),
             reply_markup=InlineKeyboardMarkup([[
@@ -259,14 +259,14 @@ async def cb_handler(client, query: CallbackQuery):
 
 
     elif data == "tmon2":
-        new_image_path = "https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
+        new_image_path = "https://envs.sh/S5p.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.TMONT),
             reply_markup=InlineKeyboardMarkup([[
              InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
 
     elif data == "tif2":
-        new_image_path = "https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
+        new_image_path = "https://envs.sh/S5I.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.TIFT),
             reply_markup=InlineKeyboardMarkup([[
@@ -275,7 +275,7 @@ async def cb_handler(client, query: CallbackQuery):
   
 
     elif data == "fmon2":
-        new_image_path = "https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
+        new_image_path = "https://envs.sh/S5T.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.FMONT),
             reply_markup=InlineKeyboardMarkup([[
