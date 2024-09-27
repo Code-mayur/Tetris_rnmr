@@ -139,7 +139,7 @@ foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetri
 
 foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetris_admino_bot)
 """
-    TMON = """
+    TMONT = """
 **ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ  ᴜᴘɪ  ǫʀ  ᴀɴᴅ  ᴘᴀʏ  ᴛʜᴇ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ.  ᴀɴᴅ  ᴄʟɪᴄᴋ  'ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅'  ʙᴜᴛᴛᴏɴ  ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴛᴏ  ᴄᴏɴғɪʀᴍ.** <u>ᴏɴʟʏ  ғᴏʀ  ɪɴᴅɪᴀɴ</u>
 
 **<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 159₹ or 2.7$ 
