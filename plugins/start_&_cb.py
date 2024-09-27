@@ -187,10 +187,10 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.FIF,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", url = "https://code-mayur.github.io/pay/redirect.html?upi=rnmr15d")
+                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "fif2")
             ],[
                 InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "upgrade"),
-                InlineKeyboardButton("ᴘᴀɪᴅ✅", callback_data = "final")
+                InlineKeyboardButton("ᴀᴅᴍɪɴ🛸", url = "https://t.me/tetris_admino_bot")
              ]])
         )
 
@@ -199,10 +199,10 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.MON,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", url = "https://code-mayur.github.io/pay/redirect.html?upi=rnmr1m")
+                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "mon2")
             ],[
                 InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "upgrade"),
-                InlineKeyboardButton("ᴘᴀɪᴅ✅", callback_data = "final")
+                InlineKeyboardButton("ᴀᴅᴍɪɴ🛸", url = "https://t.me/tetris_admino_bot")
              ]])
         )
 
@@ -211,10 +211,10 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.TMON,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", url = "https://code-mayur.github.io/pay/redirect.html?upi=rnmr3m")
+                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "tmon2")
             ],[
                 InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "upgrade"),
-                InlineKeyboardButton("ᴘᴀɪᴅ✅", callback_data = "final")
+                InlineKeyboardButton("ᴀᴅᴍɪɴ🛸", url = "https://t.me/tetris_admino_bot")
              ]])
         )
 
@@ -223,10 +223,10 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.TIF,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", url = "https://code-mayur.github.io/pay/redirect.html?upi=rnmrb2m")
+                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "tif2")
             ],[
                 InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "upgrade"),
-                InlineKeyboardButton("ᴘᴀɪᴅ✅", callback_data = "final")
+                InlineKeyboardButton("ᴀᴅᴍɪɴ🛸", url = "https://t.me/tetris_admino_bot")
              ]])
         )
 
@@ -235,12 +235,52 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.FMON,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", url = "https://code-mayur.github.io/pay/redirect.html?upi=rnmrb4m")
+                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "fmon2")
             ],[
                 InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "upgrade"),
-                InlineKeyboardButton("ᴘᴀɪᴅ✅", callback_data = "final")
+                InlineKeyboardButton("ᴀᴅᴍɪɴ🛸", url = "https://t.me/tetris_admino_bot")
              ]])
         )
+
+        elif data == "fif2":
+        new_image_path = "https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
+        await query.message.edit_media(
+            media=InputMediaPhoto(new_image_path, caption=rkn.FIFT),
+            reply_markup=InlineKeyboardMarkup([[
+             InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
+
+      
+    elif data == "mon2":
+        new_image_path = "https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
+        await query.message.edit_media(
+            media=InputMediaPhoto(new_image_path, caption=rkn.MONT),
+            reply_markup=InlineKeyboardMarkup([[
+             InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
+
+
+    elif data == "tmon2":
+        new_image_path = "https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
+        await query.message.edit_media(
+            media=InputMediaPhoto(new_image_path, caption=rkn.TMONT),
+            reply_markup=InlineKeyboardMarkup([[
+             InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
+
+    elif data == "tif2":
+        new_image_path = "https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
+        await query.message.edit_media(
+            media=InputMediaPhoto(new_image_path, caption=rkn.TIFT),
+            reply_markup=InlineKeyboardMarkup([[
+             InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
+
+  
+
+    elif data == "fmon2":
+        new_image_path = "https://telegra.ph/file/4a0a3ac73658ff4c68dff.jpg"
+        await query.message.edit_media(
+            media=InputMediaPhoto(new_image_path, caption=rkn.FMONT),
+            reply_markup=InlineKeyboardMarkup([[
+             InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
+
       
     elif data == "custom_file_name":
         await query.message.edit_text(
