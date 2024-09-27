@@ -125,6 +125,42 @@ note-  automated  payment  interface  is  active"""
 
 ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ
 """
+    FIFT = """
+**ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ  ᴜᴘɪ  ǫʀ  ᴀɴᴅ  ᴘᴀʏ  ᴛʜᴇ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ.  ᴀɴᴅ  ᴄʟɪᴄᴋ  'ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅'  ʙᴜᴛᴛᴏɴ  ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴛᴏ  ᴄᴏɴғɪʀᴍ.** <u>ᴏɴʟʏ  ғᴏʀ  ɪɴᴅɪᴀɴ</u>
+
+**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 39₹ or 0.7$ 
+
+foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetris_admino_bot)
+"""
+    MONT = """
+**ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ  ᴜᴘɪ  ǫʀ  ᴀɴᴅ  ᴘᴀʏ  ᴛʜᴇ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ.  ᴀɴᴅ  ᴄʟɪᴄᴋ  'ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅'  ʙᴜᴛᴛᴏɴ  ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴛᴏ  ᴄᴏɴғɪʀᴍ.** <u>ᴏɴʟʏ  ғᴏʀ  ɪɴᴅɪᴀɴ</u>
+
+**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 59₹ or 1.2$ 
+
+foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetris_admino_bot)
+"""
+    TMON = """
+**ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ  ᴜᴘɪ  ǫʀ  ᴀɴᴅ  ᴘᴀʏ  ᴛʜᴇ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ.  ᴀɴᴅ  ᴄʟɪᴄᴋ  'ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅'  ʙᴜᴛᴛᴏɴ  ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴛᴏ  ᴄᴏɴғɪʀᴍ.** <u>ᴏɴʟʏ  ғᴏʀ  ɪɴᴅɪᴀɴ</u>
+
+**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 159₹ or 2.7$ 
+
+foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetris_admino_bot)
+"""
+    TIFT = """
+**ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ  ᴜᴘɪ  ǫʀ  ᴀɴᴅ  ᴘᴀʏ  ᴛʜᴇ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ.  ᴀɴᴅ  ᴄʟɪᴄᴋ  'ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅'  ʙᴜᴛᴛᴏɴ  ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴛᴏ  ᴄᴏɴғɪʀᴍ.** <u>ᴏɴʟʏ  ғᴏʀ  ɪɴᴅɪᴀɴ</u>
+
+**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 139₹ or 2$ 
+
+foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetris_admino_bot)
+"""
+    FMONT = """
+**ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ  ᴜᴘɪ  ǫʀ  ᴀɴᴅ  ᴘᴀʏ  ᴛʜᴇ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ.  ᴀɴᴅ  ᴄʟɪᴄᴋ  'ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅'  ʙᴜᴛᴛᴏɴ  ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴛᴏ  ᴄᴏɴғɪʀᴍ.** <u>ᴏɴʟʏ  ғᴏʀ  ɪɴᴅɪᴀɴ</u>
+
+**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 249₹ or 3.3$ 
+
+foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetris_admino_bot)
+"""
+
     
     TIME = """
 **ᴄʜᴏᴏsᴇ  ᴠᴀʟɪᴅɪᴛʏ  ғᴏʀ  ʏᴏᴜʀ  ᴘʟᴀɴ  ғʀᴏᴍ  ʙᴇʟᴏᴡ👇  ʙᴜᴛᴛᴏɴ,  ᴘʟᴀɴ  ᴅᴇᴛᴀɪʟs  ᴀʙᴏᴠᴇ**☝🏻
