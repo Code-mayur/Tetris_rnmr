@@ -185,8 +185,7 @@ async def cb_handler(client, query: CallbackQuery):
     elif data == "fif":
         await query.message.edit_text(
             text=rkn.FIF,
-            parse_mode="HTML",
-            disable_web_page_preview=False,
+            disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "fif2")
             ],[
