@@ -61,9 +61,19 @@ note-  automated  payment  interface  is  active"""
 
 **ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ  ᴛᴏ  ʙᴜʏ  ᴘʀᴇᴍɪᴜᴍ  ᴘʟᴀɴ**
     """
-    
-    FIF = """ **🪧ʙᴇɴᴇғɪᴛs** - <blockquote expandable>fxgjxfhxjxgdzhkzdgzkxhfxkxghchkdfhxjgz \ngdxhkdhfejtfgjsthfhkfgjxdhfxhkdhfcgjdgjcgjxgjsrydgjaetstuaetarya \nrydtusgjfkyvgjxhkchkgpivhkvnvhkfhbmcbm \nvnxgchkzrysykdryeuosthdyixgdaygchkdhvcfhkbkhhkj\njvhkdfhxfhadhzgjchldjgxy \nitulbukdhfxyrzgjxghsfhzyragjxhk \ndrygkdtuxyusjgsrystusrjfu \nlfhkcjgshffyuatuchlftushk \ndtkgkhdgjchjxhkxghchkchk. jl \nhkcjlckhchlxykvkkj \njlchkzgjxgjjyx</blockquote> """
 
+    FIF = """
+**🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ᴘʀᴇᴍɪᴜᴍ
+🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  1 **ᴍᴏɴᴛʜ
+🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** - 3️⃣9️⃣₹ (0.7$)
+
+**🪧ʙᴇɴᴇғɪᴛs -
+     ~ [ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ](https://telegra.ph/Utxgucyifoy-09-17)
+     ᴏʀ  ~ ᴄʜᴇᴄᴋ  ᴀʙᴏᴠᴇ  ᴘɪᴄᴛᴜʀᴇ
+
+ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ
+"""
+    
     MON = """
 **🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ᴘʀᴇᴍɪᴜᴍ
 🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  1 **ᴍᴏɴᴛʜ
