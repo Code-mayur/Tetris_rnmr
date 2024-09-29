@@ -36,21 +36,21 @@ class rkn(object):
     START_TXT = """#ad
 reserve for ad
 
-**ᴀ  ғᴀsᴛ  ʀᴇɴᴀᴍᴇʀ🛩️  ʙᴏᴛ  ᴡɪᴛʜ  sᴏᴍᴇ  ᴛᴏᴏʟs  ᴛᴏ  ᴇᴅɪᴛ✏️ , ᴄᴏɴᴠᴇʀᴛ  ғɪʟᴇ  ᴛᴏ  ᴠɪᴅᴇᴏ , ᴄʜᴀɴɢᴇ  ᴛʜᴜᴍʙɴᴀɪʟ🖥️ , ᴄᴀᴘᴛɪᴏɴ  ᴏғ  ᴀ  ᴠɪᴅᴇᴏ  ᴏʀ  ᴀᴜᴅɪᴏ  ғɪʟᴇ
+<i>ᴀ  ғᴀsᴛ  ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  sᴏᴍᴇ  ᴛᴏᴏʟs  ᴛᴏ  ᴇᴅɪᴛ , ᴄᴏɴᴠᴇʀᴛ  ғɪʟᴇ  ᴛᴏ  ᴠɪᴅᴇᴏ , ᴄʜᴀɴɢᴇ  ᴛʜᴜᴍʙɴᴀɪʟ , ᴄᴀᴘᴛɪᴏɴ  ᴏғ  ᴀ  ᴠɪᴅᴇᴏ  ᴏʀ  ᴀᴜᴅɪᴏ  ғɪʟᴇ
 
-✌🏻ʜɪ  {}  sᴇɴᴅ  ғɪʟᴇ  ᴛᴏ  ᴇᴅɪᴛ**"""
+✌🏻ʜɪ</i>  {}  <i>sᴇɴᴅ  ғɪʟᴇ  ᴛᴏ  ᴇᴅɪᴛ</i>"""
 
-    ABOUT_TXT = """**ᴄʜᴏᴏsᴇ  ᴀ  ᴘʟᴀɴ  ғʀᴏᴍ  👇🏻ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ʙᴜʏ,  ᴘʟᴀɴ  ᴅᴇᴛᴀɪʟs  ɢɪᴠᴇɴ  ɪɴ  ɴᴇxᴛ  ᴘᴀɢᴇ**
+    ABOUT_TXT = """<i>ᴄʜᴏᴏsᴇ  ᴀ  ᴘʟᴀɴ  ғʀᴏᴍ  👇🏻ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ʙᴜʏ,  ᴘʟᴀɴ  ᴅᴇᴛᴀɪʟs  ɢɪᴠᴇɴ  ɪɴ  ɴᴇxᴛ  ᴘᴀɢᴇ</i>**
 
 note-  automated  payment  interface  is  active"""
 
     HELP_TXT = """
-**ɴᴏᴛ  ᴀ  ʀᴏᴄᴋᴇᴛ  sᴄɪᴇɴᴄᴇ  , sᴏ  ɴᴏ  ᴛᴜᴛᴏʀɪᴀʟ**  
+<i>ɴᴏᴛ  ᴀ  ʀᴏᴄᴋᴇᴛ  sᴄɪᴇɴᴄᴇ  , sᴏ  ɴᴏ  ᴛᴜᴛᴏʀɪᴀʟ</i>  
 
 - just send a video or audio file , bot will ask to type a new name
 -choose the output file format , boom now wait 
 
-**ᴀʟsᴏ  ᴜsᴇ  ᴄᴏᴍᴍᴀɴᴅs  ᴀɴᴅ  ᴇxᴘʟᴏʀᴇ  ʜᴇʀᴇ👇🏻**
+</i>ᴀʟsᴏ  ᴜsᴇ  ᴄᴏᴍᴍᴀɴᴅs  ᴀɴᴅ  ᴇxᴘʟᴏʀᴇ  ʜᴇʀᴇ👇🏻</i>
 """
 
     UPGRADE= """
@@ -173,32 +173,32 @@ note-  automated  payment  interface  is  active
 note-  dont  subscribe  this, way  back  to  home 
 """
     BOT_STATUS = """
-**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ** v-4.5.7
+<i>ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ</i> v-1.5.9
 
 - version cheked `{}` ago
 - `{}` users started the bot till now
 - `{}` users active live now
-- avrg 346 regular users
+- avrg 355 regular users
 - `{}` spaces held in bot
 - `{}` cache ready to clear
 
-**ᴅᴀᴛᴀs  ᴀʀᴇ  ʀᴇᴀʟ  ᴛɪᴍᴇ  ᴜᴘᴅᴀᴛᴇᴅ**
+<i>ᴅᴀᴛᴀs  ᴀʀᴇ  ʀᴇᴀʟ  ᴛɪᴍᴇ  ᴜᴘᴅᴀᴛᴇᴅ</i>
 """
 
     DIGITAL_METADATA = """
-**ᴍᴇᴛᴀᴅᴀᴛᴀ  sᴇᴛᴛɪɴɢ  ᴛᴜᴛᴏʀɪᴀʟ**
+<i>ᴍᴇᴛᴀᴅᴀᴛᴀ  sᴇᴛᴛɪɴɢ  ᴛᴜᴛᴏʀɪᴀʟ</i>
 
 ~ use /metadata cmd to change and set metadata of your file
 
-**ғᴏʀ ᴇxᴀᴍᴘʟᴇ**:-
+<i>ғᴏʀ ᴇxᴀᴍᴘʟᴇ</i>:-
 
 ◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @channel_username" -metadata author="@your_username" -metadata:s:s title="Subtitled By :- @channel_username" -metadata:s:a title="By :- @your_username" -metadata:s:v title="By:- @channel" </code>
 
-📥**ғᴏʀ ʜᴇʟᴘ ᴄᴏɴᴛ.** @tetris_botz
+📥<i>ғᴏʀ ʜᴇʟᴘ ᴄᴏɴᴛ.</i> @tetris_botz
 """
     
     CUSTOM_FILE_NAME = """
-**ᴄᴜsᴛᴏᴍ  ғɪʟᴇ  ɴᴀᴍᴇ  ᴜsɪɴɢ  ᴘʀᴇғɪx/sᴜғғɪx**
+<i>ᴄᴜsᴛᴏᴍ  ғɪʟᴇ  ɴᴀᴍᴇ  ᴜsɪɴɢ  ᴘʀᴇғɪx/sᴜғғɪx</i>
 
 ~ use /set_prefix cmd to add a prefix along with your filename
 ~ use /see_prefix cmd to see current prefix
@@ -207,18 +207,18 @@ note-  dont  subscribe  this, way  back  to  home
 ~ use /see_suffix cmd to see current suffix
 ~ use /del_suffix cmd to delete current suffix
 
-**ᴇxᴀᴍᴩʟᴇ**:- `/set_suffix @channel`
-**ᴇxᴀᴍᴩʟᴇ**:- `/set_prefix @channel`
+<i>ᴇxᴀᴍᴩʟᴇ</i>:- `/set_suffix @channel`
+<i>ᴇxᴀᴍᴩʟᴇ</i>:- `/set_prefix @channel`
 """
     
     #⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @RknDeveloper🙏🥲
     # ᴡʜᴏᴇᴠᴇʀ ɪs ᴅᴇᴘʟᴏʏɪɴɢ ᴛʜɪs ʀᴇᴘᴏ ɪs ᴡᴀʀɴᴇᴅ ⚠️ ᴅᴏ ɴᴏᴛ ʀᴇᴍᴏᴠᴇ ᴄʀᴇᴅɪᴛs ɢɪᴠᴇɴ ɪɴ ᴛʜɪs ʀᴇᴘᴏ #ғɪʀsᴛ ᴀɴᴅ ʟᴀsᴛ ᴡᴀʀɴɪɴɢ ⚠️
-    DEV_TXT = """use our bot **sᴘᴏᴛ** and  **sᴛᴀʀᴛ  ᴘɪᴄ** to advertise your content 👆🏻**ʟɪᴋᴇ  ᴛʜɪs**
+    DEV_TXT = """use our bot <i>sᴘᴏᴛ</i> and  <i>sᴛᴀʀᴛ  ᴘɪᴄ</i> to advertise your content 👆🏻<i>ʟɪᴋᴇ  ᴛʜɪs</i>
 
-starting at only **7ʀs / ᴅᴀʏ**
+starting at only 7<i>ʀs / ᴅᴀʏ</i>
 
-contact  **ᴀᴅᴍɪɴ**  for more info and payment
+contact  <i>ᴀᴅᴍɪɴ</i>  for more info and payment
 
 click 👇🏻here to check bot users engagement """
     # ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
@@ -226,23 +226,23 @@ click 👇🏻here to check bot users engagement """
     
 
     BOTS = """
-**ᴛʀʏ  ᴛʜᴇsᴇ  ᴜsᴇғᴜʟʟ  ʙᴏᴛs,  ᴅᴇᴛᴀɪʟs  ʜᴇʀᴇ**
+<i>ᴛʀʏ  ᴛʜᴇsᴇ  ᴜsᴇғᴜʟʟ  ʙᴏᴛs,  ᴅᴇᴛᴀɪʟs  ʜᴇʀᴇ</i>
 
-⭕️**ɪɴsᴛᴀ  ᴅᴏᴡɴʟᴏᴀᴅᴇʀ  ʙᴏᴛ** 
+⭕️<i>ɪɴsᴛᴀ  ᴅᴏᴡɴʟᴏᴀᴅᴇʀ  ʙᴏᴛ</i> 
 - download  instagram  post , reel , story 
 - just  send  public  account  link
 
-⭕️**ᴍᴏʀᴇ  ᴄᴏᴍᴍɪɴɢ  sᴏᴏɴ**
+⭕️<i>ᴍᴏʀᴇ  ᴄᴏᴍᴍɪɴɢ  sᴏᴏɴ</i>
 - bla  bla  bla  bla  bla  bla  bla
 - aah raha  hai  jaldi
 
-**ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ  ᴛᴏ  ᴇxᴘʟᴏʀᴇ  ᴛʜᴏsᴇ  ʙᴏᴛs**
+<i>ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ  ᴛᴏ  ᴇxᴘʟᴏʀᴇ  ᴛʜᴏsᴇ  ʙᴏᴛs</i>
 """
     
     RKN_PROGRESS = """<b>\n
-[🧨](https://telegra.ph/file/a10607f63654828a06194.mp4)**sᴘᴇᴇᴅ-** {3}/s                    [unlock 2x speed](https://telegra.ph/How-to-increase-speed-08-28)
-📦**ꜱɪᴢᴇ-**  {1} of {2}
-⏳**ᴇᴛᴀ-**  {4}"""
+[🧨](https://telegra.ph/file/a10607f63654828a06194.mp4)<i>sᴘᴇᴇᴅ-</i> {3}/s                    [unlock 2x speed](https://telegra.ph/How-to-increase-speed-08-28)
+📦<i>ꜱɪᴢᴇ-</i>  {1} of {2}
+⏳<i>ᴇᴛᴀ-</i>  {4}"""
 
 # Rkn Developer 
 # Don't Remove Credit 😔
