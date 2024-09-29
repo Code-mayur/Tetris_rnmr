@@ -55,6 +55,6 @@ async def removethumb(client, message):
 async def addthumbs(client, message):
     rkn = await message.reply_text("**ᴘʀᴏᴄᴇssɪɴɢ......**")
     await db.set_thumbnail(message.from_user.id, file_id=message.photo.file_id)                
-    await rkn.edit("**ᴛʜɪs  ᴘʜᴏᴛᴏ  ɪs  sᴀᴠᴇᴅ  ᴀs  ᴀ  ᴛʜᴜᴍʙɴᴀɪʟ** <blockquote expandable>ugxicutxutciycigchichivigviyviyciycyucyucyuvuycyucigcgicgivhivyivyivgvyicyicugcucugcgucugcuyvigcgucugcugcugcugcutctucugcutcugcugcutcutcugcugcugcucucugcuggccjg</blockquote> ☑️\n\n#ad\nreserve for ad")
+    await rkn.edit("**ᴛʜɪs  ᴘʜᴏᴛᴏ  ɪs  sᴀᴠᴇᴅ  ᴀs  ᴀ  ᴛʜᴜᴍʙɴᴀɪʟ** ☑️\n\n#ad\nreserve for ad")
 
 
