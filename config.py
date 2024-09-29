@@ -67,7 +67,7 @@ note-  automated  payment  interface  is  active"""
 🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  15 **ᴅᴀʏs
 🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** - 3️⃣9️⃣₹ (0.6$)
 
-**🪧ʙᴇɴᴇғɪᴛs** - \n <blockquote expandable>- ᴇᴅɪᴛ  ᴜᴘᴛᴏ  4ɢʙ  ғɪʟᴇ \n- ɢᴇᴛ  2x  sᴘᴇᴇᴅ \n- ɴᴏ  ᴛɪᴍᴇ  ɢᴀᴘ  ʟɪᴍɪᴛ \n- ᴜɴʟɪᴍɪᴛᴇᴅ  ᴜᴘʟᴏᴀᴅɪɴɢ \n- ᴍᴜʟᴛɪᴘʟᴇ  ᴛᴀsᴋ  sɪᴍᴜʟᴛᴀɴᴇᴏᴜsʟʏ \n- .ᴍᴋᴠ , .ᴍᴘ4  ᴏᴘᴛɪᴍɪsᴀᴛɪᴏɴ \n-  ᴀᴜᴛᴏ + ᴍᴀɴᴜᴀʟ  ᴛʜᴜᴍʙɴᴀɪʟ \n- ᴄᴀᴘᴛɪᴏɴ , ᴘʀᴇғɪx , sᴜғғɪx , ᴍᴇᴛᴀᴅᴀᴛᴀ \n- ғɪʟᴇ  ᴛᴏ  ᴠɪᴅᴇᴏ  ᴛᴏ  ғɪʟᴇ  ᴄᴏɴᴠᴇʀᴛ \n- 24/7 ᴀᴅᴍɪɴ  sᴜᴘᴘᴏʀᴛ \n- ғᴜᴛᴜʀᴇ  ᴘʀᴏᴏғ</blockquote> 
+**🪧ʙᴇɴᴇғɪᴛs** - \n <blockquote expandable>fxgjxfhxjxgdzhkzdgzkxhfxkxghchkdfhxjgz \ngdxhkdhfejtfgjsthfhkfgjxdhfxhkdhfcgjdgjcgjxgjsrydgjaetstuaetarya \nrydtusgjfkyvgjxhkchkgpivhkvnvhkfhbmcbm \nvnxgchkzrysykdryeuosthdyixgdaygchkdhvcfhkbkhhkj\njvhkdfhxfhadhzgjchldjgxy \nitulbukdhfxyrzgjxghsfhzyragjxhk \ndrygkdtuxyusjgsrystusrjfu \nlfhkcjgshffyuatuchlftushk \ndtkgkhdgjchjxhkxghchkchk. jl \nhkcjlckhchlxykvkkj \njlchkzgjxgjjyx</blockquote> 
 ﻿
 **ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ**
 """
