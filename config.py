@@ -62,15 +62,7 @@ note-  automated  payment  interface  is  active"""
 **ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ  ᴛᴏ  ʙᴜʏ  ᴘʀᴇᴍɪᴜᴍ  ᴘʟᴀɴ**
     """
     
-    FIF = """
-**🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ᴘʀᴇᴍɪᴜᴍ
-🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  15 **ᴅᴀʏs
-🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** - 3️⃣9️⃣₹ (0.6$)
-
-**🪧ʙᴇɴᴇғɪᴛs** - \n <blockquote expandable>fxgjxfhxjxgdzhkzdgzkxhfxkxghchkdfhxjgz \ngdxhkdhfejtfgjsthfhkfgjxdhfxhkdhfcgjdgjcgjxgjsrydgjaetstuaetarya \nrydtusgjfkyvgjxhkchkgpivhkvnvhkfhbmcbm \nvnxgchkzrysykdryeuosthdyixgdaygchkdhvcfhkbkhhkj\njvhkdfhxfhadhzgjchldjgxy \nitulbukdhfxyrzgjxghsfhzyragjxhk \ndrygkdtuxyusjgsrystusrjfu \nlfhkcjgshffyuatuchlftushk \ndtkgkhdgjchjxhkxghchkchk. jl \nhkcjlckhchlxykvkkj \njlchkzgjxgjjyx</blockquote> 
-﻿
-**ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ**
-"""
+    FIF = """ **🪧ʙᴇɴᴇғɪᴛs** - <blockquote expandable>fxgjxfhxjxgdzhkzdgzkxhfxkxghchkdfhxjgz \ngdxhkdhfejtfgjsthfhkfgjxdhfxhkdhfcgjdgjcgjxgjsrydgjaetstuaetarya \nrydtusgjfkyvgjxhkchkgpivhkvnvhkfhbmcbm \nvnxgchkzrysykdryeuosthdyixgdaygchkdhvcfhkbkhhkj\njvhkdfhxfhadhzgjchldjgxy \nitulbukdhfxyrzgjxghsfhzyragjxhk \ndrygkdtuxyusjgsrystusrjfu \nlfhkcjgshffyuatuchlftushk \ndtkgkhdgjchjxhkxghchkchk. jl \nhkcjlckhchlxykvkkj \njlchkzgjxgjjyx</blockquote> """
 
     MON = """
 **🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ᴘʀᴇᴍɪᴜᴍ
