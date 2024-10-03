@@ -64,7 +64,7 @@ note-  automated  payment  interface  is  active"""
 
     FIF = """
 **🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ᴘʀᴇᴍɪᴜᴍ
-🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  1 **ᴍᴏɴᴛʜ
+🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  15 **ᴅᴀʏs
 🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** - 3️⃣9️⃣₹ (0.7$)
 
 **🪧ʙᴇɴᴇғɪᴛs -
@@ -178,7 +178,8 @@ note-  dont  subscribe  this, way  back  to  home
 - version cheked `{}` ago
 - `{}` users started the bot till now
 - `{}` users active live now
-- avrg 355 regular users
+- avrg 351 regular users
+- premium users count - 19
 - `{}` spaces held in bot
 - `{}` cache ready to clear
 
