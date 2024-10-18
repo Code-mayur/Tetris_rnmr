@@ -80,7 +80,7 @@ async def myplan(client, message):
     else:
         await message.reply_text(
             f"**ɪɴᴠᴀʟɪᴅ  ᴀᴄᴛɪᴏɴ , ᴜᴘɢʀᴀᴅᴇ  ᴛᴏ  ᴘʀᴇᴍɪᴜᴍ\nᴄʜᴇᴄᴋᴏᴜᴛ  ᴘʟᴀɴs,  ᴄʟɪᴄᴋ  ʜᴇʀᴇ👉🏻** /premium\n\n"
-            f"#ad\nreserve for ad"
+            f"#ad\nclick👉🏻 [get any movies/series](https://t.me/tetris_movies)"
         )
 
 # Plans command handler
@@ -157,7 +157,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.BOTS,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ɪɴsᴛᴀ  ᴅᴏᴡɴʟᴏᴀᴅᴇʀ  ʙᴏᴛ🤍", url= "https://t.me/instagram_dload_bot")
+                InlineKeyboardButton("ɪɴsᴛᴀ  ᴅᴏᴡɴʟᴏᴀᴅᴇʀ  ʙᴏᴛ 🤍", url= "https://t.me/instagram_dload_bot")
+            ],[
+                InlineKeyboardButton("ғɪʟᴇ  ᴛᴏ  ʟɪɴᴋ  ʙᴏᴛ 🤖", url= "https://t.me/File_stream_link_bot")
             ],[
                 InlineKeyboardButton("🛸ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Tetris_botz"),
                 InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data= "start")
@@ -190,11 +192,11 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.BTIME,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("comming  soon", callback_data="tif")],
-                [InlineKeyboardButton("◀️back", callback_data="about")
-            ]])
-        )
-    
+                InlineKeyboardButton("2  Month  -  129", callback_data="tif"),
+                InlineKeyboardButton("4  Month  -  239", callback_data="fmon")
+            ],
+            [InlineKeyboardButton("◀️back", callback_data="about")]])
+        )   
 
     elif data == "fif":
         await query.message.edit_text(
