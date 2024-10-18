@@ -85,7 +85,7 @@ async def myplan(client, message):
 async def plans(client, message):
     user = message.from_user
     free_trial_status = await db.get_free_trial_status(user.id)
-    image_url = "https://envs.sh/wMW.jpg"
+    image_url = "https://envs.sh/THT.jpg"
     
     if not await db.has_premium_access(user.id):
         if not free_trial_status:
@@ -113,7 +113,7 @@ async def cb_handler(client, query: CallbackQuery):
 
     elif data == "upgrade":  # This corresponds to the "Advertise with Us" button
         # Changing to the specific advertisement image
-        new_image_path = "https://envs.sh/wMW.jpg"  # Replace this with the actual path to the new image
+        new_image_path = "https://envs.sh/THT.jpg"  # Replace this with the actual path to the new image
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.UPGRADE),  # Assuming rkn.ADVERTISE_CAPTION holds your caption text
             reply_markup=upgrade_button         
@@ -188,10 +188,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.BTIME,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("2  Month  -  129", callback_data="tif"),
-                InlineKeyboardButton("4  Month  -  239", callback_data="fmon")
+                InlineKeyboardButton("2  Month  -  129₹", callback_data="tif")
             ],
-            [InlineKeyboardButton("◀️back", callback_data="about")]])
+            [InlineKeyboardButton("4  Month  -  239₹", callback_data="fmon")]])
         )   
 
     elif data == "fif":
@@ -278,7 +277,7 @@ async def cb_handler(client, query: CallbackQuery):
              InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
 
     elif data == "tif2":
-        new_image_path = "https://envs.sh/S5I.jpg"
+        new_image_path = "https://envs.sh/THI.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.TIFT),
             reply_markup=InlineKeyboardMarkup([[
@@ -287,7 +286,7 @@ async def cb_handler(client, query: CallbackQuery):
   
 
     elif data == "fmon2":
-        new_image_path = "https://envs.sh/S5T.jpg"
+        new_image_path = "https://envs.sh/THn.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.FMONT),
             reply_markup=InlineKeyboardMarkup([[
@@ -326,7 +325,7 @@ async def cb_handler(client, query: CallbackQuery):
         
     elif data == "source_code":  # This corresponds to the "Advertise with Us" button
         # Changing to the specific advertisement image
-        new_image_path = "https://telegra.ph/file/0c41ddb3e7d3fafca59bc.jpg"  # Replace this with the actual path to the new image
+        new_image_path = "https://envs.sh/TH6.jpg"  # Replace this with the actual path to the new image
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.DEV_TXT),  # Assuming rkn.ADVERTISE_CAPTION holds your caption text
             reply_markup=InlineKeyboardMarkup([[
