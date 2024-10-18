@@ -80,7 +80,6 @@ async def myplan(client, message):
     else:
         await message.reply_text(
             f"**ɪɴᴠᴀʟɪᴅ  ᴀᴄᴛɪᴏɴ , ᴜᴘɢʀᴀᴅᴇ  ᴛᴏ  ᴘʀᴇᴍɪᴜᴍ\nᴄʜᴇᴄᴋᴏᴜᴛ  ᴘʟᴀɴs,  ᴄʟɪᴄᴋ  ʜᴇʀᴇ👉🏻** /premium\n\n"
-            f"#ad\nclick👉🏻 [get any movies/series](https://t.me/tetris_movies)"
         )
 
 # Plans command handler
@@ -134,7 +133,6 @@ async def cb_handler(client, query: CallbackQuery):
         else:
             new_text = (
                 "**ɪɴᴠᴀʟɪᴅ  ᴀᴄᴛɪᴏɴ , ʏᴏᴜ  ᴜsᴇᴅ  ᴛʀɪᴀʟ  ᴘʟᴀɴ\nʙᴜʏ  ᴘʀᴇᴍɪᴜᴍ,  sᴇɴᴅ**  /plans  **ᴄᴏᴍᴍᴀɴᴅ** \n\n"
-                "#ad\nreserve for ad"
             )
         
         await client.send_message(user_id, text=new_text)
