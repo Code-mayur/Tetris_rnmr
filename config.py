@@ -34,7 +34,7 @@ class Config(object):
 class rkn(object):
     # part of text configuration
     START_TXT = """#ad
-reserve for ad
+👉🏻 [file to link bot](https://t.me/File_stream_link_bot)
 
 <i>**ᴀ  ғᴀsᴛ  ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  sᴏᴍᴇ  ᴛᴏᴏʟs  ᴛᴏ  ᴇᴅɪᴛ , ᴄᴏɴᴠᴇʀᴛ  ғɪʟᴇ  ᴛᴏ  ᴠɪᴅᴇᴏ , ᴄʜᴀɴɢᴇ  ᴛʜᴜᴍʙɴᴀɪʟ , ᴄᴀᴘᴛɪᴏɴ  ᴏғ  ᴀ  ᴠɪᴅᴇᴏ  ᴏʀ  ᴀᴜᴅɪᴏ  ғɪʟᴇ
 
@@ -101,7 +101,7 @@ note-  automated  payment  interface  is  active"""
     TIF = """
 **🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ʙᴜɴᴅʟᴇ
 🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  2 **ᴍᴏɴᴛʜ
-🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** - 1️⃣3️⃣9️⃣₹ (2$)
+🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** - 1️⃣2️⃣9️⃣₹ (2$)
 
 **🪧ʙᴇɴᴇғɪᴛs -
      ~ ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ  ᴘʀᴇᴍɪᴜᴍ  ᴀᴄᴄᴇss
@@ -115,7 +115,7 @@ note-  automated  payment  interface  is  active"""
     FMON = """
 **🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ʙᴜɴᴅʟᴇ
 🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  4 **ᴍᴏɴᴛʜ
-🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** -  2️⃣4️⃣9️⃣₹ (3.7$)
+🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** -  2️⃣3️⃣9️⃣₹ (3.7$)
 
 **🪧ʙᴇɴᴇғɪᴛs -
      ~ ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ  ᴘʀᴇᴍɪᴜᴍ  ᴀᴄᴄᴇss
@@ -168,18 +168,19 @@ foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetri
 note-  automated  payment  interface  is  active
 """
     BTIME = """
-**ɴᴏᴛ  ᴀᴠᴀɪʟᴀʙʟᴇ  ʀɪɢʜᴛ  ɴᴏᴡ,  ᴄᴏᴍᴍɪɴɢ  sᴏᴏɴ....**☝🏻
+**ᴄʜᴏᴏsᴇ  ᴠᴀʟɪᴅɪᴛʏ  ғᴏʀ  ʏᴏᴜʀ  ᴘʟᴀɴ  ғʀᴏᴍ  ʙᴇʟᴏᴡ👇  ʙᴜᴛᴛᴏɴ,  ᴘʟᴀɴ  ᴅᴇᴛᴀɪʟs  ᴀʙᴏᴠᴇ**☝🏻
 
-note-  dont  subscribe  this, way  back  to  home 
+note-  automated  payment  interface  is  active
 """
+    
     BOT_STATUS = """
-<i>**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ**</i> v-1.5.9
+<i>**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ**</i> v-1.6.0
 
 - version cheked `{}` ago
 - `{}` users started the bot till now
 - `{}` users active live now
-- avrg 351 regular users
-- premium users count - 19
+- avrg 387 regular users
+- premium users count - 28
 - `{}` spaces held in bot
 - `{}` cache ready to clear
 
@@ -217,7 +218,7 @@ note-  dont  subscribe  this, way  back  to  home
     # ᴡʜᴏᴇᴠᴇʀ ɪs ᴅᴇᴘʟᴏʏɪɴɢ ᴛʜɪs ʀᴇᴘᴏ ɪs ᴡᴀʀɴᴇᴅ ⚠️ ᴅᴏ ɴᴏᴛ ʀᴇᴍᴏᴠᴇ ᴄʀᴇᴅɪᴛs ɢɪᴠᴇɴ ɪɴ ᴛʜɪs ʀᴇᴘᴏ #ғɪʀsᴛ ᴀɴᴅ ʟᴀsᴛ ᴡᴀʀɴɪɴɢ ⚠️
     DEV_TXT = """use our bot <i>**sᴘᴏᴛ**</i> and  <i>**sᴛᴀʀᴛ  ᴘɪᴄ**</i> to advertise your content 👆🏻<i>**ʟɪᴋᴇ  ᴛʜɪs**</i>
 
-starting at only 7<i>**ʀs / ᴅᴀʏ**</i>
+starting at only 5<i>**ʀs / ᴅᴀʏ**</i>
 
 contact  <i>**ᴀᴅᴍɪɴ**</i>  for more info and payment
 
@@ -233,9 +234,10 @@ click 👇🏻here to check bot users engagement """
 - download  instagram  post , reel , story 
 - just  send  public  account  link
 
-⭕️<i>**ᴍᴏʀᴇ  ᴄᴏᴍᴍɪɴɢ  sᴏᴏɴ**</i>
-- bla  bla  bla  bla  bla  bla  bla
-- aah raha  hai  jaldi
+⭕️<i>**ғɪʟᴇ  ᴛᴏ  ʟɪɴᴋ  ʙᴏᴛ**</i>
+- send  any  files  get  download/stream  link
+- also  store  file  and  share  with  users 
+- add  own  shortner  and  earn  by  sharing 
 
 <i>**ᴄʟɪᴄᴋ  ʙᴇʟᴏᴡ  ᴛᴏ  ᴇxᴘʟᴏʀᴇ  ᴛʜᴏsᴇ  ʙᴏᴛs**</i>
 """
