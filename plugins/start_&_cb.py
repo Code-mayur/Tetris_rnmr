@@ -8,7 +8,7 @@ from helper.utils import humanbytes, handle_banned_user_status
 # Inline keyboard buttons
 upgrade_button = InlineKeyboardMarkup([
     [InlineKeyboardButton('🎟️ᴄʟɪᴄᴋ  ᴛᴏ  ʙᴜʏ  ᴘʀᴇᴍɪᴜᴍ', callback_data='about')],
-    [InlineKeyboardButton("📦ɢɪᴠᴇᴡᴀʏ", callback_data='source_code'),
+    [InlineKeyboardButton("📦ɢɪᴠᴇᴡᴀʏ", url='https://t.me/tetris_botz/14'),
      InlineKeyboardButton("◀️ɢᴏ ʙᴀᴄᴋ", callback_data="start")]
 ])
 
