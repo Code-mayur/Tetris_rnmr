@@ -40,6 +40,16 @@ class rkn(object):
 
 ✌🏻ʜɪ**</i>  {}  <i>**sᴇɴᴅ  ғɪʟᴇ  ᴛᴏ  ᴇᴅɪᴛ**</i>"""
 
+    START_TXT2 = """
+**$BLUM  AIRDROP  LAUNCHING  ON  NOVEMBER**
+
+<i>so  dont  miss  it . $BLUM  is  not  like  hamster</i> 
+
+- investment  from  top  sources  including  Binance
+- CEO  is  former  Binance  employee
+
+**<u>no  tap  tap  just  complete  task  and  get  $blum</u>**"""
+
     ABOUT_TXT = """**ᴄʜᴏᴏsᴇ  ᴀ  ᴘʟᴀɴ  ғʀᴏᴍ  👇🏻ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ʙᴜʏ,  ᴘʟᴀɴ  ᴅᴇᴛᴀɪʟs  ɢɪᴠᴇɴ  ɪɴ  ɴᴇxᴛ  ᴘᴀɢᴇ**
 
 note-  automated  payment  interface  is  active"""
