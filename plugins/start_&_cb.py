@@ -38,21 +38,19 @@ async def start(client, message):
     else:
         await message.reply_text(text=caption, reply_markup=start_button, disable_web_page_preview=True)
     
-    # Wait for 1 minute (60 seconds)
     await asyncio.sleep(45)
     
-    # Second message caption from rkn.START_TXT2
     second_caption = rkn.START_TXT2.format(user.mention)
     
-    # Define your inline button
     button = InlineKeyboardMarkup([
         [InlineKeyboardButton("ɢᴇᴛ  ʙʟᴜᴍ  ᴀɪʀᴅʀᴏᴘ🪂", url="https://t.me/blum/app?startapp=ref_JEUl29meGd")]
     ])
     
-    # Send the second message with rkn.START_TXT2 and the inline button
     await message.reply_text(text=second_caption, reply_markup=button, disable_web_page_preview=True)
     
-
+    sticker_file_id = "CAACAgQAAxkBAAKEx2cSBq_gllFUVWdg5tgc68ZOO99LAAL9DAACCd85UvadxdG9bFD6NgQ"
+    await message.reply_sticker(sticker_file_id)
+    
 # My Plan command handler
 from datetime import datetime, timedelta
 
