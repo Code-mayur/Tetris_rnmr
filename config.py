@@ -184,14 +184,14 @@ note-  automated  payment  interface  is  active
 """
     
     BOT_STATUS = """
-<i>**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ**</i> v-1.6.0
+<i>**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ**</i> v-1.6.1
 
 - version cheked `{}` ago
 - `{}` users started the bot till now
 - `{}` users active live now
-- avrg 387 regular users
-- premium users count - 28
-- `{}` spaces held in bot
+- avrg 402 regular users
+- premium users count - 31
+- `{}` RAM held in bot
 - `{}` cache ready to clear
 
 <i>**ᴅᴀᴛᴀs  ᴀʀᴇ  ʀᴇᴀʟ  ᴛɪᴍᴇ  ᴜᴘᴅᴀᴛᴇᴅ**</i>
