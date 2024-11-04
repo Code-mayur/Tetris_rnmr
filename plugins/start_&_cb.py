@@ -30,25 +30,34 @@ async def check_ban_status(bot, message):
 @Client.on_message(filters.private & filters.command("start"))
 async def start(client, message):
     user = message.from_user
-    await db.add_user(client, message) 
+    # Add user to the database
+    await db.add_user(client, message)  
+    # Prepare initial message
     caption = rkn.START_TXT.format(user.mention)
     
+    # Send initial message with or without a picture
     if Config.RKN_PIC:
         await message.reply_photo(Config.RKN_PIC, caption=caption, reply_markup=start_button)       
     else:
         await message.reply_text(text=caption, reply_markup=start_button, disable_web_page_preview=True)
     
+    # Wait 90 seconds before sending the second message
     await asyncio.sleep(90)
     
+    # Prepare second message details
     second_caption = rkn.START_TXT2.format(user.mention)
-    picture = 'https://envs.sh/j09.jpg'
-    
-    button = InlineKeyboardMarkup([
-        [InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ  ʜᴇʀᴇ  ғᴏʀ  ʙᴜʏɪɴɢ", url="http://t.me/Introbomin")]
+    picture_url = 'https://envs.sh/j09.jpg'  # Change this to an empty string to simulate a blank URL if needed
+    contact_button = InlineKeyboardMarkup([
+        [InlineKeyboardButton("Contact Here for Buying", url="http://t.me/Introbomin")]
     ])
     
-    await message.reply_photo(picture, text=second_caption, reply_markup=button, disable_web_page_preview=True)
+    # Send the second message based on whether picture_url is blank
+    if picture_url:
+        await message.reply_photo(picture_url, caption=second_caption, reply_markup=contact_button, disable_web_page_preview=True)
+    else:
+        await message.reply_text(text=second_caption, reply_markup=contact_button, disable_web_page_preview=True)
     
+    # Send the sticker after the second message
     sticker_file_id = "CAACAgQAAxkBAAKEx2cSBq_gllFUVWdg5tgc68ZOO99LAAL9DAACCd85UvadxdG9bFD6NgQ"
     await message.reply_sticker(sticker_file_id)
     
