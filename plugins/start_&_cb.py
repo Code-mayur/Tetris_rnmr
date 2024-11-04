@@ -39,7 +39,7 @@ async def start(client, message):
     else:
         await message.reply_text(text=caption, reply_markup=start_button, disable_web_page_preview=True)
     
-    await asyncio.sleep(9)
+    await asyncio.sleep(90)
     
     second_caption = rkn.START_TXT2.format(user.mention)
     
