@@ -43,7 +43,7 @@ async def start(client, message):
     second_caption = rkn.START_TXT2.format(user.mention)
     
     button = InlineKeyboardMarkup([
-        [InlineKeyboardButton("ɢᴇᴛ  ᴛᴏᴍᴀ🍅  ᴀɪʀᴅʀᴏᴘ", url="http://t.me/Tomarket_ai_bot/app?startapp=0000NQTi")]
+        [InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ  ʜᴇʀᴇ  ғᴏʀ  ʙᴜʏɪɴɢ", url="http://t.me/Introbomin")]
     ])
     
     await message.reply_text(text=second_caption, reply_markup=button, disable_web_page_preview=True)
