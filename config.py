@@ -43,7 +43,7 @@ class rkn(object):
     START_TXT2 = """
 **ACTIVE  TELEGRAM  CHANNEL  FOR  SALE**
 
-<i>MEMBERS - 2000+ /n PRICE💰 - 500₹ (negotiable)</i> 
+<i>MEMBERS - 2000+ \n💸PRICE - 500₹ (negotiable)</i> 
 
 **<u>IF  YOU  WANT  TO  BUY  CONTACT [ADMIN](https://t.me/Introbomin) </u>**"""
 
