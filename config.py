@@ -41,11 +41,12 @@ class rkn(object):
 ✌🏻ʜɪ**</i>  {}  <i>**sᴇɴᴅ  ғɪʟᴇ  ᴛᴏ  ᴇᴅɪᴛ**</i>"""
 
     START_TXT2 = """
-**ACTIVE  TELEGRAM  CHANNEL  FOR  SALE**
+**ACTIVE  [TELEGRAM  CHANNEL](https://t.me/madnesss_movies)  FOR  SALE**
 
 <i>MEMBERS - 2000+ \n💸PRICE - 500₹ (negotiable)</i> 
 
-**<u>IF  YOU  WANT  TO  BUY  CONTACT [ADMIN](https://t.me/Introbomin) </u>**"""
+
+**<u>IF  YOU  WANT  TO  BUY  CONTACT  [ADMIN](https://t.me/Introbomin) </u>**"""
 
     ABOUT_TXT = """**ᴄʜᴏᴏsᴇ  ᴀ  ᴘʟᴀɴ  ғʀᴏᴍ  👇🏻ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ʙᴜʏ,  ᴘʟᴀɴ  ᴅᴇᴛᴀɪʟs  ɢɪᴠᴇɴ  ɪɴ  ɴᴇxᴛ  ᴘᴀɢᴇ**
 
