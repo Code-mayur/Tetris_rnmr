@@ -41,14 +41,11 @@ class rkn(object):
 ✌🏻ʜɪ**</i>  {}  <i>**sᴇɴᴅ  ғɪʟᴇ  ᴛᴏ  ᴇᴅɪᴛ**</i>"""
 
     START_TXT2 = """
-**$TOMA  AIRDROP  LAUNCHING  ON  OCT 31**
+**ACTIVE  TELEGRAM  CHANNEL  FOR  SALE**
 
-<i>so  dont  miss  it . $TOMA  is  not  like  hamster</i> 
+<i>MEMBERS - 2000+ /n PRICE💰 - 500₹ (negotiable)</i> 
 
-- investment  from  top  sources  including  Binance
-- small  community so bogger  profit  expect 
-
-**<u>no  tap  tap  just  complete  task  and  get  coin</u>**"""
+**<u>IF  YOU  WANT  TO  BUY  CONTACT [ADMIN](https://t.me/Introbomin) </u>**"""
 
     ABOUT_TXT = """**ᴄʜᴏᴏsᴇ  ᴀ  ᴘʟᴀɴ  ғʀᴏᴍ  👇🏻ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ʙᴜʏ,  ᴘʟᴀɴ  ᴅᴇᴛᴀɪʟs  ɢɪᴠᴇɴ  ɪɴ  ɴᴇxᴛ  ᴘᴀɢᴇ**
 
@@ -189,8 +186,8 @@ note-  automated  payment  interface  is  active
 - version cheked `{}` ago
 - `{}` users started the bot till now
 - `{}` users active live now
-- avrg 402 regular users
-- premium users count - 31
+- avrg 433 regular users
+- premium users count - 34
 - `{}` RAM held in bot
 - `{}` cache ready to clear
 
@@ -253,7 +250,7 @@ click 👇🏻here to check bot users engagement """
 """
     
     RKN_PROGRESS = """\n
-[🧨](https://telegra.ph/file/a10607f63654828a06194.mp4)**sᴘᴇᴇᴅ-** {3}/s                    [unlock 2x speed](https://telegra.ph/How-to-increase-speed-08-28)
+[🧨](https://telegra.ph/file/a10607f63654828a06194.mp4)**sᴘᴇᴇᴅ-** {3}/s                    [unlock 3x speed](https://telegra.ph/How-to-increase-speed-08-28)
 📦**ꜱɪᴢᴇ-**  {1} of {2}
 ⏳**ᴇᴛᴀ-** {4}"""
 
