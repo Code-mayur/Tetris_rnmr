@@ -41,12 +41,13 @@ async def start(client, message):
     await asyncio.sleep(90)
     
     second_caption = rkn.START_TXT2.format(user.mention)
+    picture = 'https://envs.sh/j09.jpg'
     
     button = InlineKeyboardMarkup([
         [InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ  ʜᴇʀᴇ  ғᴏʀ  ʙᴜʏɪɴɢ", url="http://t.me/Introbomin")]
     ])
     
-    await message.reply_text(text=second_caption, reply_markup=button, disable_web_page_preview=True)
+    await message.reply_photo(picture, text=second_caption, reply_markup=button, disable_web_page_preview=True)
     
     sticker_file_id = "CAACAgQAAxkBAAKEx2cSBq_gllFUVWdg5tgc68ZOO99LAAL9DAACCd85UvadxdG9bFD6NgQ"
     await message.reply_sticker(sticker_file_id)
