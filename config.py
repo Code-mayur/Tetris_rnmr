@@ -41,12 +41,15 @@ class rkn(object):
 ✌🏻ʜɪ**</i>  {}  <i>**sᴇɴᴅ  ғɪʟᴇ  ᴛᴏ  ᴇᴅɪᴛ**</i>"""
 
     START_TXT2 = """
-**ACTIVE  [TELEGRAM  CHANNEL](https://t.me/madnesss_movies)  FOR  SALE**
+**$BLUM  AIRDROP  LAUNCHING  ON  NOVEMBER
+also  giving  free  $USDT  and  $DOGS**
 
-<i>MEMBERS - 2000+ \n💸PRICE - 500₹ (negotiable)</i> 
+<i>so  dont  miss  it . $BLUM  is  not  like  hamster</i>
 
+- investment  from  top  sources  including  Binance
+- CEO  is  former  Binance  employee
 
-**<u>IF  YOU  WANT  TO  BUY  CONTACT  [ADMIN](https://t.me/Introbomin) </u>**"""
+<u>**no  tap  tap  just  complete  task  and  get  coin**</u>"""
 
     ABOUT_TXT = """**ᴄʜᴏᴏsᴇ  ᴀ  ᴘʟᴀɴ  ғʀᴏᴍ  👇🏻ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ʙᴜʏ,  ᴘʟᴀɴ  ᴅᴇᴛᴀɪʟs  ɢɪᴠᴇɴ  ɪɴ  ɴᴇxᴛ  ᴘᴀɢᴇ**
 
@@ -182,13 +185,13 @@ note-  automated  payment  interface  is  active
 """
     
     BOT_STATUS = """
-<i>**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ**</i> v-1.6.1
+<i>**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ**</i> v-1.6.2
 
 - version cheked `{}` ago
 - `{}` users started the bot till now
 - `{}` users active live now
-- avrg 433 regular users
-- premium users count - 34
+- avrg 461 regular users
+- premium users count - 62
 - `{}` RAM held in bot
 - `{}` cache ready to clear
 
