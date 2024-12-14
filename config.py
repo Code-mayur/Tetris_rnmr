@@ -41,15 +41,14 @@ class rkn(object):
 ✌🏻ʜɪ**</i>  {}  <i>**sᴇɴᴅ  ғɪʟᴇ  ᴛᴏ  ᴇᴅɪᴛ**</i>"""
 
     START_TXT2 = """
-**$BLUM  AIRDROP  LAUNCHING  ON  NOVEMBER
-also  giving  free  $USDT  and  $DOGS**
+**$SEED  LISTING  ON  DECEMBER 
+mine seed , get maximum profit on airdrop**
 
-<i>so  dont  miss  it . $BLUM  is  not  like  hamster</i>
+<i>so  dont  miss  it . $SEED  is  not  like  hamster</i>
 
 - investment  from  top  sources  including  Binance
-- CEO  is  former  Binance  employee
 
-<u>**no  tap  tap  just  complete  task  and  get  coin**</u>"""
+<u>**no  tap  tap  just  complete  task  and  mine**</u>"""
 
     ABOUT_TXT = """**ᴄʜᴏᴏsᴇ  ᴀ  ᴘʟᴀɴ  ғʀᴏᴍ  👇🏻ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴ  ᴛᴏ  ʙᴜʏ,  ᴘʟᴀɴ  ᴅᴇᴛᴀɪʟs  ɢɪᴠᴇɴ  ɪɴ  ɴᴇxᴛ  ᴘᴀɢᴇ**
 
