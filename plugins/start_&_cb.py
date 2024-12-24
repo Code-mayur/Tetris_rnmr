@@ -347,7 +347,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=(
                 f"**sᴛᴀᴛᴜs-  ᴛʀᴀɴsᴀᴄᴛɪᴏɴ  ᴘʀᴏᴄᴇssɪɴɢ🔄** \n"
                 f"ᴛ**x**ɴ  ɪᴅ: RIW92<code>{user_id}</code>P \n\n"
-                f"Admin  will  verify  your  transaction  and  activate  premium  shortly.  You  will  be  notified  when  your  transaction  passes  the  verification  process\n\n"
+                f"Taking  time  then  usual , sever  load.. Hold on! You  will  be  notified  when  your  transaction  passes  the  verification  process\n\n"
                 f"**ᴍᴀx ᴡᴀɪᴛɪɴɢ ᴛɪᴍᴇ - 50 ᴍɪɴᴜᴛᴇs**"
             ),
             disable_web_page_preview=True,
