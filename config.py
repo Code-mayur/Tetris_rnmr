@@ -189,8 +189,8 @@ note-  automated  payment  interface  is  active
 - version cheked `{}` ago
 - `{}` users started the bot till now
 - `{}` users active live now
-- avrg 535 regular users
-- premium users count - 81
+- avrg 577 regular users
+- premium users count - 94
 - `{}` RAM held in bot
 - `{}` cache ready to clear
 
