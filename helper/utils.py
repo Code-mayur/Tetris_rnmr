@@ -29,8 +29,8 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
         )
         try:
             inline_buttons = [
-                [InlineKeyboardButton("✖️ ᴄᴀɴᴄᴇʟ  ᴛᴀsᴋ ✖️", callback_data="close")],
-                [InlineKeyboardButton("🔼 Increase Speed", callback_data="increase_speed")]
+                [InlineKeyboardButton("⚡ɪɴᴄʀᴇᴀsᴇ sᴘᴇᴇᴅ", callback_data="close"),
+                 InlineKeyboardButton("❌ᴄᴀɴᴄᴇʟ ᴛᴀsᴋ", callback_data="speed")]
             ]
             await message.edit(
                 text=f"{ud_type}\n\n{tmp}",               
@@ -39,11 +39,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
         except:
             pass
 
-async def handle_button_click(bot, message):
-    callback_data = message.data
-    if callback_data == "increase_speed":
-        await query.answer("Please check your internet connection, ensure the bot is loading properly, and try again.", show_alert=True)
-    
+
 def humanbytes(size):    
     if not size:
         return ""
