@@ -148,8 +148,7 @@ async def doc(bot, update):
         chat_id=update.message.chat.id,
         text="**ғɪʟᴇ ɪs ʙᴇɪɴɢ ʀᴇɴᴀᴍᴇᴅ ᴡɪᴛʜ ᴍᴇᴛᴀᴅᴀᴛᴀ.**"
 	    )
-	    
-	await ms.edit("`ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....`")
+	    await ms.edit("`ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....`")
 	    
 	    
     duration = 0
