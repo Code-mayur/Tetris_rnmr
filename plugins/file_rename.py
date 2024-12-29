@@ -144,10 +144,7 @@ async def doc(bot, update):
      	     
     _bool_metadata = await db.get_metadata_mode(user_id)
     if (_bool_metadata):
-	await bot.send_message(
-        chat_id=update.message.chat.id,
-        text="**ғɪʟᴇ ɪs ʙᴇɪɴɢ ʀᴇɴᴀᴍᴇᴅ ᴡɪᴛʜ ᴍᴇᴛᴀᴅᴀᴛᴀ.**"
-	    )
+	    await ms.edit("`metadata ᴀᴅɪɴɢ....`")
     else:
 	await ms.edit("`ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....`")
 	        
