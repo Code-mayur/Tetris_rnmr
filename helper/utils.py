@@ -42,7 +42,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
 async def handle_button_click(bot, message):
     callback_data = message.data
     if callback_data == "increase_speed":
-        await message.answer("Please check your internet connection, ensure the bot is loading properly, and try again.")
+        await query.answer("Please check your internet connection, ensure the bot is loading properly, and try again.", show_alert=True)
     
 def humanbytes(size):    
     if not size:
