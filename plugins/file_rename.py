@@ -142,8 +142,25 @@ async def doc(bot, update):
     except Exception as e:
      	return await ms.edit(e)
      	     
-    await ms.edit("`ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....`")
-	        
+    _bool_metadata = await db.get_metadata_mode(user_id)
+    if (_bool_metadata):
+        metadata_path = f"Metadata/{new_filename}"
+        metadata = await db.get_metadata_code(user_id)
+        if metadata:
+            await ms.edit("**ғᴏᴜɴᴅ  ᴍᴇᴛᴀᴅᴀᴛᴀ  ғᴏʀ  ғɪʟᴇ......**P__\n\n**ᴀᴅᴅɪɴɢ  ɪᴛ  ᴛᴏ  ғɪʟᴇ....**")
+            cmd = f"""ffmpeg -i {path} {metadata} {metadata_path}"""
+            process = await asyncio.create_subprocess_shell(cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE)
+            stdout, stderr = await process.communicate()
+            er = stderr.decode()
+            try:
+                if er:
+                    return await ms.edit(str(er) + "\n\n**Error**")
+            except BaseException:
+                pass
+        await ms.edit("**ᴍᴇᴛᴀᴅᴀᴛᴀ  ᴀᴅᴅᴇᴅ✅  ᴛᴏ  ᴛʜɪs  ғɪʟᴇ**\n\n**ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....**")
+    else:
+        await ms.edit("`ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....`")
+	    
     duration = 0
     try:
         parser = createParser(file_path)
