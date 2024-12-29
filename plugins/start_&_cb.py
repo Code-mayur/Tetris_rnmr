@@ -308,6 +308,9 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup([[
              InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "help")]])) 
 
+    elif data == "speed":
+        await query.answer("❌ Only premium users can toggle metadata.", show_alert=True)
+        
     elif data == "status":
     # Fetching bot status data
         total_users = await db.total_users_count()
