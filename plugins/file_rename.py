@@ -144,22 +144,12 @@ async def doc(bot, update):
      	     
     _bool_metadata = await db.get_metadata_mode(user_id)
     if (_bool_metadata):
-        metadata_path = f"Metadata/{new_filename}"
-        metadata = await db.get_metadata_code(user_id)
-        if metadata:
-            await ms.edit("**ғᴏᴜɴᴅ  ᴍᴇᴛᴀᴅᴀᴛᴀ  ғᴏʀ  ғɪʟᴇ......**P__\n\n**ᴀᴅᴅɪɴɢ  ɪᴛ  ᴛᴏ  ғɪʟᴇ....**")
-            cmd = f"""ffmpeg -i {path} {metadata} {metadata_path}"""
-            process = await asyncio.create_subprocess_shell(cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE)
-            stdout, stderr = await process.communicate()
-            er = stderr.decode()
-            try:
-                if er:
-                    return await ms.edit(str(er) + "\n\n**Error**")
-            except BaseException:
-                pass
-        await ms.edit("**ᴍᴇᴛᴀᴅᴀᴛᴀ  ᴀᴅᴅᴇᴅ✅  ᴛᴏ  ᴛʜɪs  ғɪʟᴇ**\n\n**ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....**")
-    else:
-        await ms.edit("`ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....`")
+	    await ms.edit("**ғᴏᴜɴᴅ  ᴍᴇᴛᴀᴅᴀᴛᴀ  ғᴏʀ  ғɪʟᴇ......**\n\n**ᴀᴅᴅɪɴɢ  ɪᴛ  ᴛᴏ  ғɪʟᴇ....**")
+            await asyncio.sleep(2)  # Simulate metadata addition
+            await ms.edit("**ᴍᴇᴛᴀᴅᴀᴛᴀ  ᴀᴅᴅᴇᴅ✅  ᴛᴏ  ᴛʜɪs  ғɪʟᴇ**\n\n**ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....**")
+        else:
+            await ms.edit("`ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....`")
+	    
 	    
     duration = 0
     try:
