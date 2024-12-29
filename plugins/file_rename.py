@@ -142,11 +142,7 @@ async def doc(bot, update):
     except Exception as e:
      	return await ms.edit(e)
      	     
-    _bool_metadata = await db.get_metadata_mode(user_id)
-    if (_bool_metadata):
-	    await ms.edit("`metadata ᴀᴅɪɴɢ....`")
-    else:
-	await ms.edit("`ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....`")
+    await ms.edit("`ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....`")
 	        
     duration = 0
     try:
