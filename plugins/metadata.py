@@ -1,66 +1,71 @@
-# (c) @RknDeveloperr
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
-# Special Thanks To @ReshamOwner
-# Update Channel @Digital_Botz & @DigitalBotz_Support
-
 from pyrogram import Client, filters
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
-from helper.database import db
 from pyromod.exceptions import ListenerTimeout
-from config import rkn
+
+# Dummy metadata settings
+dummy_metadata_mode = {}
+dummy_metadata_code = {}
 
 TRUE = [[InlineKeyboardButton('ᴍᴇᴛᴀᴅᴀᴛᴀ ᴏɴ', callback_data='metadata_1'),
-       InlineKeyboardButton('✅', callback_data='metadata_1')
-       ],[
-       InlineKeyboardButton('sᴇᴛ  ᴄᴜsᴛᴏᴍ  ᴍᴇᴛᴀᴅᴀᴛᴀ', callback_data='cutom_metadata')]]
+         InlineKeyboardButton('✅', callback_data='metadata_1')
+         ], [
+         InlineKeyboardButton('sᴇᴛ  ᴄᴜsᴛᴏᴍ  ᴍᴇᴛᴀᴅᴀᴛᴀ', callback_data='custom_metadata')]]
+
 FALSE = [[InlineKeyboardButton('ᴍᴇᴛᴀᴅᴀᴛᴀ ᴏғғ', callback_data='metadata_0'),
-        InlineKeyboardButton('❌', callback_data='metadata_0')
-       ],[
-       InlineKeyboardButton('sᴇᴛ  ᴄᴜsᴛᴏᴍ  ᴍᴇᴛᴀᴅᴀᴛᴀ', callback_data='cutom_metadata')]]
+          InlineKeyboardButton('❌', callback_data='metadata_0')
+         ], [
+         InlineKeyboardButton('sᴇᴛ  ᴄᴜsᴛᴏᴍ  ᴍᴇᴛᴀᴅᴀᴛᴀ', callback_data='custom_metadata')]]
 
 @Client.on_message(filters.private & filters.command('metadata'))
 async def handle_metadata(bot: Client, message: Message):
-    RknDev = await message.reply_text("**ᴀᴄᴄᴇssɪɴɢ......**", reply_to_message_id=message.id)
-    bool_metadata = await db.get_metadata_mode(message.from_user.id)
-    user_metadata = await db.get_metadata_code(message.from_user.id)
+    user_id = message.from_user.id
+    await message.reply_text("**ᴀᴄᴄᴇssɪɴɢ......**", reply_to_message_id=message.id)
+    
+    # Use dummy data
+    bool_metadata = dummy_metadata_mode.get(user_id, False)
+    user_metadata = dummy_metadata_code.get(user_id, "No Metadata Set")
+    
     if bool_metadata:
-        return await RknDev.edit(f"Your Current Metadata:-\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(TRUE))
-    return await RknDev.edit(f"Your Current Metadata:-\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(FALSE))
+        return await message.reply_text(f"Your Current Metadata:-\n\n➜ `{user_metadata}`", 
+                                        reply_markup=InlineKeyboardMarkup(TRUE))
+    return await message.reply_text(f"Your Current Metadata:-\n\n➜ `{user_metadata}`", 
+                                    reply_markup=InlineKeyboardMarkup(FALSE))
 
 @Client.on_callback_query(filters.regex('.*?(custom_metadata|metadata).*?'))
 async def query_metadata(bot: Client, query: CallbackQuery):
     data = query.data
+    user_id = query.from_user.id
+    
+    # Toggle metadata mode
     if data.startswith('metadata_'):
         _bool = data.split('_')[1]
-        user_metadata = await db.get_metadata_code(query.from_user.id)
-        if bool(eval(_bool)):
-            await db.set_metadata_mode(query.from_user.id, bool_meta=False)
-            await query.message.edit(f"Your Current Metadata:-\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(FALSE))
+        dummy_metadata_mode[user_id] = bool(eval(_bool))
+        user_metadata = dummy_metadata_code.get(user_id, "No Metadata Set")
+        
+        if dummy_metadata_mode[user_id]:
+            await query.message.edit(f"Your Current Metadata:-\n\n➜ `{user_metadata}`", 
+                                     reply_markup=InlineKeyboardMarkup(TRUE))
         else:
-            await db.set_metadata_mode(query.from_user.id, bool_meta=True)
-            await query.message.edit(f"Your Current Metadata:-\n\n➜ `{user_metadata}` ", reply_markup=InlineKeyboardMarkup(TRUE))
+            await query.message.edit(f"Your Current Metadata:-\n\n➜ `{user_metadata}`", 
+                                     reply_markup=InlineKeyboardMarkup(FALSE))
 
-    elif data == 'cutom_metadata':
+    # Set custom metadata
+    elif data == 'custom_metadata':
         await query.message.delete()
         try:
             try:
-                metadata = await bot.ask(text=rkn.DIGITAL_METADATA, chat_id=query.from_user.id, filters=filters.text, timeout=30, disable_web_page_preview=True)
+                metadata = await bot.ask(
+                    text="**sᴇɴᴅ ʏᴏᴜʀ ᴄᴜsᴛᴏᴍ ᴍᴇᴛᴀᴅᴀᴛᴀ ᴄᴏᴅᴇ:**", 
+                    chat_id=user_id, 
+                    filters=filters.text, 
+                    timeout=30, 
+                    disable_web_page_preview=True)
             except ListenerTimeout:
-                await query.message.reply_text("⚠️ Error  **ʀᴇǫᴜᴇsᴛ  ᴛɪᴍᴇ  ᴏᴜᴛ**\n\n**ʀᴇsᴛᴀʀᴛ  ʙʏ  sᴇɴᴅɪɴɢ** /metadata", reply_to_message_id=query.message.id)
-                return
-            print(metadata.text)
-            RknDev = await query.message.reply_text("**ᴀᴄᴄᴇssɪɴɢ.....**", reply_to_message_id=metadata.id)
-            await db.set_metadata_code(query.from_user.id, metadata_code=metadata.text)
-            await RknDev.edit("**ᴍᴇᴛᴀᴅᴀᴛᴀ  ᴄᴏᴅᴇ  ғᴏʀ  ғɪʟᴇ  sᴇᴛ  sᴜᴄᴄᴇssғᴜʟʟʏ✅**")
-        except Exception as e:
-            print(e)
+                return await bot.send_message(user_id, "⚠️ **ʀᴇǫᴜᴇsᴛ  ᴛɪᴍᴇ  ᴏᴜᴛ**\n\nʀᴇsᴛᴀʀᴛ ʙʏ sᴇɴᴅɪɴɢ /metadata")
 
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
-# Special Thanks To @ReshamOwner
-# Update Channel @Digital_Botz & @DigitalBotz_Support
+            # Save dummy metadata
+            dummy_metadata_code[user_id] = metadata.text
+            await bot.send_message(user_id, "✅ **ᴍᴇᴛᴀᴅᴀᴛᴀ ᴄᴏᴅᴇ sᴇᴛ sᴜᴄᴄᴇssғᴜʟʟʏ!**")
+        except Exception as e:
+            await bot.send_message(user_id, f"⚠️ **ᴇʀʀᴏʀ:** {str(e)}")
+               
