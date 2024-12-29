@@ -1,3 +1,4 @@
+from datetime import datetime, timedelta
 from pyrogram import Client, filters
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from pyromod.exceptions import ListenerTimeout
@@ -23,19 +24,8 @@ FALSE = [[InlineKeyboardButton('ᴍᴇᴛᴀᴅᴀᴛᴀ ᴏғғ ❌', callback_
 
 def validate_metadata(input_text: str) -> bool:
     """Validate metadata structure."""
-    required_parts = [
-        "-map 0", "-c:s copy", "-c:a copy", "-c:v copy",
-        "-metadata title=", "-metadata author=", "-metadata:s:s title=",
-        "-metadata:s:a title=", "-metadata:s:v title="
-    ]
+    required_parts = ["-map 0", "-c:s copy", "-c:a copy", "-c:v copy", "-metadata"]
     return all(part in input_text for part in required_parts)
-
-def update_usernames(template: str, usernames: dict) -> str:
-    """Update usernames in the default metadata template."""
-    return (
-        template.replace("@Tetris_botz", usernames.get("bot", "@Tetris_botz"))
-        .replace("@tetris_admino_bot", usernames.get("admin", "@tetris_admino_bot"))
-    )
 
 @Client.on_message(filters.private & filters.command('metadata'))
 async def handle_metadata(bot: Client, message: Message):
@@ -45,7 +35,10 @@ async def handle_metadata(bot: Client, message: Message):
     current_metadata = dummy_metadata_code.get(user_id, DEFAULT_METADATA)
 
     button_layout = InlineKeyboardMarkup(TRUE if current_mode else FALSE)
-    await message.reply_text(f"Your Current Metadata:-\n\n➜ `{current_metadata}`", reply_markup=button_layout)
+    await message.reply_text(
+        f"Your Current Metadata:-\n\n➜ `{current_metadata}`",
+        reply_markup=button_layout
+    )
 
 @Client.on_callback_query(filters.regex('.*?(custom_metadata|metadata).*?'))
 async def query_metadata(bot: Client, query: CallbackQuery):
@@ -53,39 +46,52 @@ async def query_metadata(bot: Client, query: CallbackQuery):
     user_id = query.from_user.id
     data = query.data
 
+    # Check if the user has premium access
+    is_premium = await db.has_premium_access(user_id)
+
     if data.startswith('metadata_'):
-        # Toggle metadata mode
+        if not is_premium:
+            # Restrict toggle for non-premium users
+            await query.answer("❌ Only premium users can toggle metadata.", show_alert=True)
+            return
+
+        # Toggle metadata mode for premium users
         is_metadata_on = data.split('_')[1] == "1"
         dummy_metadata_mode[user_id] = not is_metadata_on
-        
+
         # Get current metadata and update button layout
         current_metadata = dummy_metadata_code.get(user_id, DEFAULT_METADATA)
         button_layout = InlineKeyboardMarkup(TRUE if dummy_metadata_mode[user_id] else FALSE)
-        
-        await query.message.edit(f"Your Current Metadata:-\n\n➜ `{current_metadata}`", reply_markup=button_layout)
+
+        await query.message.edit(
+            f"Your Current Metadata:-\n\n➜ `{current_metadata}`",
+            reply_markup=button_layout
+        )
 
     elif data == 'custom_metadata':
+        if not is_premium:
+            # Restrict custom metadata for non-premium users
+            await query.answer("❌ Only premium users can set custom metadata.", show_alert=True)
+            return
+
         await query.message.delete()
         try:
             # Prompt user to send custom metadata
             metadata = await bot.ask(
-                text="**Send your custom metadata code (only update the @usernames):**", 
-                chat_id=user_id, 
-                filters=filters.text, 
-                timeout=30
+                text=(
+                    "**Send your custom metadata code:**\n\n"
+                    "➔ Maintain the required format.\n"
+                    "➔ You can customize fields like `title`, `author`, etc."
+                ),
+                chat_id=user_id,
+                filters=filters.text,
+                timeout=60
             )
             if not validate_metadata(metadata.text):
                 raise ValueError("Invalid metadata structure")
-            
-            # Extract usernames from the input and update the template
-            usernames = {
-                "bot": metadata.text.split("@")[1].split(" ")[0],  # First username
-                "admin": metadata.text.split("@")[2].split(" ")[0],  # Second username
-            }
-            updated_metadata = update_usernames(DEFAULT_METADATA, usernames)
-            
+
             # Save the custom metadata
-            dummy_metadata_code[user_id] = updated_metadata
+            dummy_metadata_code[user_id] = metadata.text.strip()
             await bot.send_message(user_id, "✅ **Custom metadata set successfully!**")
         except ListenerTimeout:
             await bot.send_message(user_id, "⚠️ **Request timed out. Please try again by sending** /metadata.")
