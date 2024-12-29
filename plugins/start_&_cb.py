@@ -14,7 +14,7 @@ upgrade_button = InlineKeyboardMarkup([
 
 start_button = InlineKeyboardMarkup([
     [InlineKeyboardButton('ᴄʜᴇᴄᴋ  ᴍᴏʀᴇ  ᴜsᴇғᴜʟʟ  ʙᴏᴛs🤖', callback_data='bots')],
-    [InlineKeyboardButton('🪧ᴀᴅᴠᴇʀᴛɪsɪɴɢ', callback_data='source_code'),
+    [InlineKeyboardButton('🪧ʙᴏᴛ  ɪɴғᴏ', callback_data='status'),
      InlineKeyboardButton('ʜᴏᴡ  ᴛᴏ  ᴇᴅɪᴛ📐', callback_data='help')],
     [InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ  ᴛᴏ  ᴘʀᴇᴍɪᴜᴍ🎟️', callback_data='upgrade')]
 ])
@@ -168,8 +168,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.ABOUT_TXT.format(client.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("👑 ᴘʀᴇᴍɪᴜᴍ", callback_data="ptime")],
-                [InlineKeyboardButton("📦 ʙᴜɴᴅʟᴇ", callback_data="btime")
+                InlineKeyboardButton("ʏᴇs", callback_data="ptime")],
+                [InlineKeyboardButton("ɴᴏ", callback_data="Nᴏ")
             ]])
         )
 
@@ -178,37 +178,18 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.TIME,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("15  Days  -  39₹", callback_data="fif")],
-                [InlineKeyboardButton("1  Month  -  59₹", callback_data="mon")],
-                [InlineKeyboardButton("3  Month  -  159₹", callback_data="tmon")
+                InlineKeyboardButton("1  Month  -  49₹", callback_data="mon")],
+                [InlineKeyboardButton("3  Month  -  129₹", callback_data="tmon")],
+                [InlineKeyboardButton("Life time  -  399₹", callback_data="life")],
+                [InlineKeyboardButton("🎉ᴡᴀɴᴛ  ᴅɪsᴄᴏᴜɴᴛ,  ᴄʜᴇᴄᴋ  ᴏғғᴇʀ  ʜᴇʀᴇ🎉", callback_data="offer")
             ]])
         )
 
-    elif data == "btime":
-        await query.message.edit_text(
-            text=rkn.BTIME,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("2  Month  -  129₹", callback_data="tif")
-            ],
-            [InlineKeyboardButton("4  Month  -  239₹", callback_data="fmon")]])
-        )   
-
-    elif data == "fif":
-        await query.message.edit_text(
-            text=rkn.FIF,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "fif2")
-            ],[
-                InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "upgrade"),
-                InlineKeyboardButton("ᴀᴅᴍɪɴ🛸", url = "https://t.me/tetris_admino_bot")
-             ]])
-        )
+    
 
     elif data == "mon":
         await query.message.edit_text(
-            text=rkn.MON,
+            text=rkn.FIF,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "mon2")
@@ -220,7 +201,7 @@ async def cb_handler(client, query: CallbackQuery):
 
     elif data == "tmon":
         await query.message.edit_text(
-            text=rkn.TMON,
+            text=rkn.MON,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "tmon2")
@@ -230,31 +211,19 @@ async def cb_handler(client, query: CallbackQuery):
              ]])
         )
 
-    elif data == "tif":
+    elif data == "life":
         await query.message.edit_text(
-            text=rkn.TIF,
+            text=rkn.TMON,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "tif2")
+                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "life2")
             ],[
                 InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "upgrade"),
                 InlineKeyboardButton("ᴀᴅᴍɪɴ🛸", url = "https://t.me/tetris_admino_bot")
              ]])
         )
 
-    elif data == "fmon":
-        await query.message.edit_text(
-            text=rkn.FMON,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴄʟɪᴄᴋ  ᴛᴏ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ💸", callback_data = "fmon2")
-            ],[
-                InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "upgrade"),
-                InlineKeyboardButton("ᴀᴅᴍɪɴ🛸", url = "https://t.me/tetris_admino_bot")
-             ]])
-        )
-
-    elif data == "fif2":
+    elif data == "mon2":
         new_image_path = "https://envs.sh/S5B.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.FIFT),
@@ -262,7 +231,7 @@ async def cb_handler(client, query: CallbackQuery):
              InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
 
       
-    elif data == "mon2":
+    elif data == "tmon2":
         new_image_path = "https://envs.sh/S5n.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.MONT),
@@ -270,28 +239,13 @@ async def cb_handler(client, query: CallbackQuery):
              InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
 
 
-    elif data == "tmon2":
+    elif data == "life2":
         new_image_path = "https://envs.sh/S5p.jpg"
         await query.message.edit_media(
-            media=InputMediaPhoto(new_image_path, caption=rkn.TMONT),
+            media=InputMediaPhoto(new_image_path, caption=rkn.LIFE),
             reply_markup=InlineKeyboardMarkup([[
              InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
 
-    elif data == "tif2":
-        new_image_path = "https://envs.sh/THI.jpg"
-        await query.message.edit_media(
-            media=InputMediaPhoto(new_image_path, caption=rkn.TIFT),
-            reply_markup=InlineKeyboardMarkup([[
-             InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
-
-  
-
-    elif data == "fmon2":
-        new_image_path = "https://envs.sh/THn.jpg"
-        await query.message.edit_media(
-            media=InputMediaPhoto(new_image_path, caption=rkn.FMONT),
-            reply_markup=InlineKeyboardMarkup([[
-             InlineKeyboardButton("ᴀᴍᴏᴜɴᴛ ᴘᴀɪᴅ✅", callback_data = "final")]])) 
 
       
     elif data == "custom_file_name":
@@ -309,8 +263,14 @@ async def cb_handler(client, query: CallbackQuery):
              InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "help")]])) 
 
     elif data == "speed":
+        await query.answer("❌ Only 𝖯𝗋𝖾𝗆𝗂𝗎𝗆 **ᴜsᴇʀs** can toggle metadata.", show_alert=True)
+
+    elif data == "No":
+        await query.answer(" 𝗽𝗿𝗲", show_alert=True)
+
+    elif data == "offer":
         await query.answer("❌ Only premium users can toggle metadata.", show_alert=True)
-        
+                
     elif data == "status":
     # Fetching bot status data
         total_users = await db.total_users_count()
@@ -318,13 +278,18 @@ async def cb_handler(client, query: CallbackQuery):
         recv = humanbytes(psutil.net_io_counters().bytes_recv)
         free_space = humanbytes(shutil.disk_usage(".").free)
         random_number = random.randint(5, 15)
-
-        await query.message.edit_text(
-            text=rkn.BOT_STATUS.format(uptime, total_users, random_number, free_space, recv),
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data="source_code")
-            ]])
+        
+        bot_status = (
+            f"🤖 **Bot Status**:\n"
+            f"⏱ Uptime: {uptime}\n"
+            f"👥 Total Users: {total_users}\n"
+            f"📊 Random Number: {random_number}\n"
+            f"💾 Free Space: {free_space}\n"
+            f"📡 Data Received: {recv}"
+        )
+        await query.answer(
+            text=bot_status,
+            show_alert=True  # Set this to True for an alert-style popup, False for a toast-style popup
         )
         
     elif data == "source_code":  # This corresponds to the "Advertise with Us" button
