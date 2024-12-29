@@ -1,11 +1,3 @@
-# (c) @RknDeveloperr
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
-# Special Thanks To (https://github.com/JayMahakal98) & @ReshamOwner
-# Update Channel @Digital_Botz & @DigitalBotz_Support
-
 import math, time, re, datetime, pytz
 from config import Config, rkn 
 from helper.database import db
@@ -36,13 +28,22 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
             estimated_total_time if estimated_total_time != '' else "0 s"
         )
         try:
+            inline_buttons = [
+                [InlineKeyboardButton("✖️ ᴄᴀɴᴄᴇʟ  ᴛᴀsᴋ ✖️", callback_data="close")],
+                [InlineKeyboardButton("🔼 Increase Speed", callback_data="increase_speed")]
+            ]
             await message.edit(
                 text=f"{ud_type}\n\n{tmp}",               
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✖️ ᴄᴀɴᴄᴇʟ  ᴛᴀsᴋ ✖️", callback_data="close")]])                                               
+                reply_markup=InlineKeyboardMarkup(inline_buttons)                                               
             )
         except:
             pass
 
+async def handle_button_click(bot, message):
+    callback_data = message.data
+    if callback_data == "increase_speed":
+        await message.answer("Please check your internet connection, ensure the bot is loading properly, and try again.")
+    
 def humanbytes(size):    
     if not size:
         return ""
@@ -133,11 +134,4 @@ def add_prefix_suffix(input_string, prefix='', suffix=''):
             return f"{prefix} {filename} {suffix}{extension}"
     else:
         return input_string
-
-# (c) @RknDeveloperr
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
-# Special Thanks To @ReshamOwner
-# Update Channel @Digital_Botz & @DigitalBotz_Support
+            
