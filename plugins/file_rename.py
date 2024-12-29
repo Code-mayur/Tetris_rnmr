@@ -144,11 +144,11 @@ async def doc(bot, update):
      	     
     _bool_metadata = await db.get_metadata_mode(user_id)
     if (_bool_metadata):
-	    await ms.edit("**ғᴏᴜɴᴅ  ᴍᴇᴛᴀᴅᴀᴛᴀ  ғᴏʀ  ғɪʟᴇ......**\n\n**ᴀᴅᴅɪɴɢ  ɪᴛ  ᴛᴏ  ғɪʟᴇ....**")
-            await asyncio.sleep(2)  # Simulate metadata addition
-            await ms.edit("**ᴍᴇᴛᴀᴅᴀᴛᴀ  ᴀᴅᴅᴇᴅ✅  ᴛᴏ  ᴛʜɪs  ғɪʟᴇ**\n\n**ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....**")
-        else:
-            await ms.edit("`ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....`")
+	await ms.edit("**ғᴏᴜɴᴅ  ᴍᴇᴛᴀᴅᴀᴛᴀ  ғᴏʀ  ғɪʟᴇ......**\n\n**ᴀᴅᴅɪɴɢ  ɪᴛ  ᴛᴏ  ғɪʟᴇ....**")
+	await asyncio.sleep(2)  # Simulate metadata addition
+        await ms.edit("**ᴍᴇᴛᴀᴅᴀᴛᴀ  ᴀᴅᴅᴇᴅ✅  ᴛᴏ  ᴛʜɪs  ғɪʟᴇ**\n\n**ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....**")
+    else:
+        await ms.edit("`ᴛʀʏɪɴɢ  ᴛᴏ  ᴜᴩʟᴏᴀᴅɪɴɢ....`")
 	    
 	    
     duration = 0
