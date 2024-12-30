@@ -288,29 +288,7 @@ async def cb_handler(client, query: CallbackQuery):
             show_alert=True
         )
 
-    elif data == "status":
-        # Fetching bot status data
-        total_users = await db.total_users_count()
-        uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - client.uptime))
-        recv = humanbytes(psutil.net_io_counters().bytes_recv)
-        free_space = humanbytes(shutil.disk_usage(".").free)
-        random_number = random.randint(5, 15)
 
-        bot_status = (
-            f"bhbbnnmnmmm\n\n"
-            f"Version checked {uptime} ago\n"
-            f" {total_users} users started the bot till now\n"
-            f" {random_number} users active live now\n"
-            f" Average 582 regular users\n"
-            f"Premium users count - 96\n"
-            f"{free_space} GB of free disk space\n"
-            f" {recv} GB of data cached and ready to clear"
-            f"gjmmmmj"
-        )
-        await query.answer(
-            text=bot_status,
-            show_alert=True
-        )
 
     elif data == "stats":
     # Fetching bot status data
