@@ -169,7 +169,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("ʏᴇs", callback_data="ptime")],
-                [InlineKeyboardButton("ɴᴏ", callback_data="Nᴏ")
+                [InlineKeyboardButton("ɴᴏ", callback_data="n")
             ]])
         )
 
@@ -181,7 +181,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("1  Month  -  49₹", callback_data="mon")],
                 [InlineKeyboardButton("3  Month  -  129₹", callback_data="tmon")],
                 [InlineKeyboardButton("Life time  -  399₹", callback_data="life")],
-                [InlineKeyboardButton("ϟ ᴡᴀɴᴛ  ᴅɪsᴄᴏᴜɴᴛ,  ᴄʜᴇᴄᴋ  ᴏғғᴇʀ  ʜᴇʀᴇ ϟ", callback_data="offer")
+                [InlineKeyboardButton("ϟ ᴡᴀɴᴛ  ᴅɪsᴄᴏᴜɴᴛ,  ᴄʜᴇᴄᴋ  ᴏғғᴇʀ  ʜᴇʀᴇ ϟ", callback_data="o")
             ]])
         )
 
@@ -264,7 +264,7 @@ async def cb_handler(client, query: CallbackQuery):
 
 
 
-    elif data == "No":
+    elif data == "n":
         await query.answer(
             "💸ʙ𝗎ʏ ᴘʀᴇᴍɪᴜᴍ & ɢᴇᴛ 2𝗑 ᴅᴡɴʟᴅ 𝗌ᴘᴇᴇᴅ \n\n"
             "ғʀᴇᴇ ᴘʟᴀɴ - upto 6mb/s \n"
@@ -279,7 +279,7 @@ async def cb_handler(client, query: CallbackQuery):
             show_alert=True
         )
 
-    elif data == "offer":
+    elif data == "o":
         await query.answer(
             "\n\n"
             "Buy 3-month plan, save ₹20, and get up to 10 days extra free.\n\n"
@@ -308,9 +308,34 @@ async def cb_handler(client, query: CallbackQuery):
             f"gjmmmmj"
         )
         await query.answer(
-            bot_status,
+            text=bot_status,
             show_alert=True
         )
+
+    elif data == "stats":
+    # Fetching bot status data
+        total_users = await db.total_users_count()
+        uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - client.uptime))
+        recv = humanbytes(psutil.net_io_counters().bytes_recv)
+        free_space = humanbytes(shutil.disk_usage(".").free)
+        random_number = random.randint(5, 15)
+
+    # Preparing the bot status message
+        bot_status = (
+            f"🤖 **Bot Status**:\n"
+            f"⏱ Uptime: {uptime}\n"
+            f"👥 Total Users: {total_users}\n"
+            f"📊 Random Number: {random_number}\n"
+            f"💾 Free Space: {free_space}\n"
+            f"📡 Data Received: {recv}"
+        )
+
+    # Sending the popup message
+        await query.answer(
+            text=bot_status,
+            show_alert=True  # Set this to True for an alert-style popup, False for a toast-style popup
+        )
+
 
 
     elif data == "final":
