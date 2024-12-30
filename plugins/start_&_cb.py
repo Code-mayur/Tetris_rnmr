@@ -275,17 +275,17 @@ async def cb_handler(client, query: CallbackQuery):
 
     elif data == "No":
         await query.answer(
-            "📌ɪғ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ғʀᴏᴍ ɪɴᴅɪᴀ, ᴘʟᴇᴀ𝘀ᴇ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ.",
-            show_alert=False
+            "hhhhvvnmnnnnbvhhmmmmmmmmkhvccvvhbbb",
+            show_alert=True
         )
 
     elif data == "offer":
         await query.answer(
-            "ᴄᴜʀʀᴇɴᴛ ᴏғғᴇʀ 🎊 \n\n"
-            "🎉ᴏғғᴇʀ 1:\nBuy 3-month plan, save ₹20, and get up to 10 days extra free.\n\n"
-            "🎉ᴏғғᴇʀ 2:\nBuy a lifetime validity plan at ₹399 and get ₹100 refund instantly by UPI (only for first-time buyers).\n\n"
+            "\n\n"
+            "Buy 3-month plan, save ₹20, and get up to 10 days extra free.\n\n"
+            "Buy a lifetime validity plan at ₹399 and get ₹100 refund instantly by UPI (only for first-time buyers).\n\n"
             "* All payments are safe and processed automatically.",
-            show_alert=False
+            show_alert=True
         )
 
     elif data == "status":
@@ -297,15 +297,15 @@ async def cb_handler(client, query: CallbackQuery):
         random_number = random.randint(5, 15)
 
         bot_status = (
-            f" ʙᴏᴛ ᴇɴɢᴀɢᴇᴍᴇɴᴛ ᴅᴀᴛᴀ v-1.6.2\n\n"
-            f"⌔ Version checked {uptime} ago\n"
-            f"⌔ {total_users} users started the bot till now\n"
-            f"⌔ {random_number} users active live now\n"
-            f"⌔ Average 582 regular users\n"
-            f"⌔ Premium users count - 96\n"
-            f"⌔ {free_space} GB of free disk space\n"
-            f"⌔ {recv} GB of data cached and ready to clear"
-            f"ʀᴇᴀʟ  ᴛɪᴍᴇ  ᴜᴘᴅᴀᴛᴇᴅ  ᴅᴀᴛᴀ..."
+            f"bhbbnnmnmmm\n\n"
+            f"Version checked {uptime} ago\n"
+            f" {total_users} users started the bot till now\n"
+            f" {random_number} users active live now\n"
+            f" Average 582 regular users\n"
+            f"Premium users count - 96\n"
+            f"{free_space} GB of free disk space\n"
+            f" {recv} GB of data cached and ready to clear"
+            f"gjmmmmj"
         )
         await query.answer(
             bot_status,
