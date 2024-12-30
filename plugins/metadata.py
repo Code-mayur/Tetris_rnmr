@@ -65,7 +65,7 @@ async def query_metadata(bot: Client, query: CallbackQuery):
         button_layout = InlineKeyboardMarkup(TRUE if dummy_metadata_mode[user_id] else FALSE)
 
         await query.message.edit(
-            f"**ʏᴏᴜʀ  ᴄᴜʀʀᴇɴᴛ  ᴍᴇᴛᴀᴅᴀᴛᴀ:-\n\n➜ `{current_metadata}`  \n\n**ʀᴇsᴇᴛ  ᴅᴀɪʟʏ  sᴏ  ᴘʟᴇᴀsᴇ  ᴄʜᴇᴄᴋ  ʙᴇғᴏʀᴇ  ᴇᴅɪᴛ**",
+            f"**ʏᴏᴜʀ  ᴄᴜʀʀᴇɴᴛ  ᴍᴇᴛᴀᴅᴀᴛᴀ**:-\n\n➜ `{current_metadata}`  \n\n**ʀᴇsᴇᴛ  ᴅᴀɪʟʏ  sᴏ  ᴘʟᴇᴀsᴇ  ᴄʜᴇᴄᴋ  ʙᴇғᴏʀᴇ  ᴇᴅɪᴛ**",
             reply_markup=button_layout
         )
 
@@ -97,7 +97,7 @@ async def query_metadata(bot: Client, query: CallbackQuery):
         except ListenerTimeout:
             await bot.send_message(user_id, "⚠️ **ʀᴇǫᴜᴇsᴛ  ᴛɪᴍᴇᴅ  ᴏᴜᴛ  ᴘʟᴇᴀsᴇ  ᴅᴏ  ᴛʜᴇ  ᴘʀᴏᴄᴇss  ᴀɢᴀɪɴ  ʙʏ  sᴇɴᴅɪɴɢ** /metadata  **ᴄᴍɴᴅ**")
         except ValueError as ve:
-            await bot.send_message(user_id, f"⚠️ **Error:** {str(ve)}\n\nPlease follow the correct metadata format.")
+            await bot.send_message(user_id, f"⚠️ **ᴇʀʀᴏʀ:** {str(ve)}")
         except Exception as e:
             await bot.send_message(user_id, f"⚠️ **Unexpected Error:** {str(e)}")
                 
