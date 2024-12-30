@@ -275,8 +275,8 @@ async def cb_handler(client, query: CallbackQuery):
 
     elif data == "No":
         await query.answer(
-            "📌 ɪғ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ғʀᴏᴍ ɪɴᴅɪᴀ, ᴘʟᴇᴀ𝘀ᴇ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ.",
-            show_alert=True
+            "📌ɪғ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ғʀᴏᴍ ɪɴᴅɪᴀ, ᴘʟᴇᴀ𝘀ᴇ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ.",
+            show_alert=False
         )
 
     elif data == "offer":
@@ -285,7 +285,7 @@ async def cb_handler(client, query: CallbackQuery):
             "🎉ᴏғғᴇʀ 1:\nBuy 3-month plan, save ₹20, and get up to 10 days extra free.\n\n"
             "🎉ᴏғғᴇʀ 2:\nBuy a lifetime validity plan at ₹399 and get ₹100 refund instantly by UPI (only for first-time buyers).\n\n"
             "* All payments are safe and processed automatically.",
-            show_alert=True
+            show_alert=False
         )
 
     elif data == "status":
@@ -297,7 +297,7 @@ async def cb_handler(client, query: CallbackQuery):
         random_number = random.randint(5, 15)
 
         bot_status = (
-            f"🛜 ʙᴏᴛ ᴇɴɢᴀɢᴇᴍᴇɴᴛ ᴅᴀᴛᴀ v-1.6.2\n\n"
+            f" ʙᴏᴛ ᴇɴɢᴀɢᴇᴍᴇɴᴛ ᴅᴀᴛᴀ v-1.6.2\n\n"
             f"⌔ Version checked {uptime} ago\n"
             f"⌔ {total_users} users started the bot till now\n"
             f"⌔ {random_number} users active live now\n"
@@ -305,6 +305,11 @@ async def cb_handler(client, query: CallbackQuery):
             f"⌔ Premium users count - 96\n"
             f"⌔ {free_space} GB of free disk space\n"
             f"⌔ {recv} GB of data cached and ready to clear"
+            f"ʀᴇᴀʟ  ᴛɪᴍᴇ  ᴜᴘᴅᴀᴛᴇᴅ  ᴅᴀᴛᴀ..."
+        )
+        await query.answer(
+            bot_status,
+            show_alert=True
         )
 
 
