@@ -264,7 +264,7 @@ async def cb_handler(client, query: CallbackQuery):
 
 
 
-    elif data == "speed":
+    elif data == "No":
         await query.answer(
             "💸ʙ𝗎ʏ ᴘʀᴇᴍɪᴜᴍ & ɢᴇᴛ 2𝗑 ᴅᴡɴʟᴅ 𝗌ᴘᴇᴇᴅ \n\n"
             "ғʀᴇᴇ ᴘʟᴀɴ - upto 6mb/s \n"
@@ -273,7 +273,7 @@ async def cb_handler(client, query: CallbackQuery):
             show_alert=True
         )
 
-    elif data == "No":
+    elif data == "speed":
         await query.answer(
             "hhhhvvnmnnnnbvhhmmmmmmmmkhvccvvhbbb",
             show_alert=True
