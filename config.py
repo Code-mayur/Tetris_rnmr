@@ -41,7 +41,7 @@ class rkn(object):
 ✌🏻ʜɪ**</i>  {}  <i>**sᴇɴᴅ  ғɪʟᴇ  ᴛᴏ  ᴇᴅɪᴛ**</i>"""
 
     START_TXT2 = """
-**$SEED  LISTING  ON  DECEMBER 
+**$SEED  LISTING  ON  JANUARY 15
 mine seed , get maximum profit on airdrop**
 
 <i>so  dont  miss  it . $SEED  is  not  like  hamster</i>
@@ -74,7 +74,7 @@ note-  automated  payment  interface  is  active"""
 
     FIF = """
 **🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ᴘʀᴇᴍɪᴜᴍ
-🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  15 **ᴅᴀʏs
+🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  1 **ᴍᴏɴᴛʜ
 🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** - 3️⃣9️⃣₹ (0.7$)
 
 **🪧ʙᴇɴᴇғɪᴛs -
@@ -86,7 +86,7 @@ note-  automated  payment  interface  is  active"""
     
     MON = """
 **🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ᴘʀᴇᴍɪᴜᴍ
-🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  1 **ᴍᴏɴᴛʜ
+🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  3 **ᴍᴏɴᴛʜ
 🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** - 5️⃣9️⃣₹ (1$)
 
 **🪧ʙᴇɴᴇғɪᴛs -
@@ -98,7 +98,7 @@ note-  automated  payment  interface  is  active"""
 
     TMON = """
 **🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ᴘʀᴇᴍɪᴜᴍ
-🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  3 **ᴍᴏɴᴛʜ
+🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ -  ʟɪғᴇ  ᴛɪᴍᴇ
 🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** - 1️⃣5️⃣9️⃣₹ (2.5$)
 
 **🪧ʙᴇɴᴇғɪᴛs -
@@ -108,74 +108,37 @@ note-  automated  payment  interface  is  active"""
 ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ
 """
 
-    TIF = """
-**🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ʙᴜɴᴅʟᴇ
-🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  2 **ᴍᴏɴᴛʜ
-🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** - 1️⃣2️⃣9️⃣₹ (2$)
 
-**🪧ʙᴇɴᴇғɪᴛs -
-     ~ ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ  ᴘʀᴇᴍɪᴜᴍ  ᴀᴄᴄᴇss
-                   +
-     ~ ғɪʟᴇ  ᴛᴏ  ʟɪɴᴋ  ʙᴏᴛ  ᴀᴄᴄᴇss  
-     ~[ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ](https://telegra.ph/bundle-plan-features-09-18)
-
-ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ
-"""
-
-    FMON = """
-**🏷️ ʏᴏᴜʀ  sᴇʟᴇᴄᴛᴇᴅ  ᴘʟᴀɴ -  ʙᴜɴᴅʟᴇ
-🏷️ sᴇʟᴇᴄᴛᴇᴅ  ᴠᴀʟɪᴅɪᴛʏ** -  4 **ᴍᴏɴᴛʜ
-🏷️ ᴛᴏᴛᴀʟ  ᴄᴏsᴛ** -  2️⃣3️⃣9️⃣₹ (3.7$)
-
-**🪧ʙᴇɴᴇғɪᴛs -
-     ~ ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ  ᴘʀᴇᴍɪᴜᴍ  ᴀᴄᴄᴇss
-                   +
-     ~ ғɪʟᴇ  ᴛᴏ  ʟɪɴᴋ  ʙᴏᴛ  ᴀᴄᴄᴇss  
-     ~[ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ](https://telegra.ph/bundle-plan-features-09-18)
-
-ɴᴏᴡ  ᴍᴀᴋᴇ  ᴘᴀʏᴍᴇɴᴛ  ʙʏ  ᴄʟɪᴄᴋɪɴɢ  ʙᴇʟᴏᴡ
-"""
     FIFT = """
 **ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ  ᴜᴘɪ  ǫʀ  ᴀɴᴅ  ᴘᴀʏ  ᴛʜᴇ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ.  ᴀɴᴅ  ᴄʟɪᴄᴋ  'ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅'  ʙᴜᴛᴛᴏɴ  ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴛᴏ  ᴄᴏɴғɪʀᴍ.** <u>ᴏɴʟʏ  ғᴏʀ  ɪɴᴅɪᴀɴ</u>
 
-**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 39₹ or 0.7$ 
+**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 49₹ or 1$ 
 
 foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetris_admino_bot)
 """
     MONT = """
 **ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ  ᴜᴘɪ  ǫʀ  ᴀɴᴅ  ᴘᴀʏ  ᴛʜᴇ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ.  ᴀɴᴅ  ᴄʟɪᴄᴋ  'ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅'  ʙᴜᴛᴛᴏɴ  ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴛᴏ  ᴄᴏɴғɪʀᴍ.** <u>ᴏɴʟʏ  ғᴏʀ  ɪɴᴅɪᴀɴ</u>
 
-**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 59₹ or 1.2$ 
+**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 129₹ or 2.5$ 
 
 foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetris_admino_bot)
 """
     TMONT = """
 **ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ  ᴜᴘɪ  ǫʀ  ᴀɴᴅ  ᴘᴀʏ  ᴛʜᴇ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ.  ᴀɴᴅ  ᴄʟɪᴄᴋ  'ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅'  ʙᴜᴛᴛᴏɴ  ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴛᴏ  ᴄᴏɴғɪʀᴍ.** <u>ᴏɴʟʏ  ғᴏʀ  ɪɴᴅɪᴀɴ</u>
 
-**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 159₹ or 2.7$ 
+**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 399₹ or 8$ 
 
 foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetris_admino_bot)
 """
-    TIFT = """
-**ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ  ᴜᴘɪ  ǫʀ  ᴀɴᴅ  ᴘᴀʏ  ᴛʜᴇ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ.  ᴀɴᴅ  ᴄʟɪᴄᴋ  'ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅'  ʙᴜᴛᴛᴏɴ  ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴛᴏ  ᴄᴏɴғɪʀᴍ.** <u>ᴏɴʟʏ  ғᴏʀ  ɪɴᴅɪᴀɴ</u>
 
-**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 129₹ or 2$ 
-
-foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetris_admino_bot)
-"""
-    FMONT = """
-**ɴᴏᴡ  sᴄᴀɴ  ᴀʙᴏᴠᴇ  ᴜᴘɪ  ǫʀ  ᴀɴᴅ  ᴘᴀʏ  ᴛʜᴇ  ᴘʟᴀɴ  ᴀᴍᴏᴜɴᴛ.  ᴀɴᴅ  ᴄʟɪᴄᴋ  'ᴀᴍᴏᴜɴᴛ  ᴘᴀɪᴅ✅'  ʙᴜᴛᴛᴏɴ  ᴀғᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴛᴏ  ᴄᴏɴғɪʀᴍ.** <u>ᴏɴʟʏ  ғᴏʀ  ɪɴᴅɪᴀɴ</u>
-
-**<u>ᴀᴍᴏᴜɴᴛ  ᴛᴏ  ʙᴇ  ᴘᴀɪᴅ</u>** - 239₹ or 3.3$ 
-
-foreign  users  or  for  any  others  issue  contact  [admin](https://t.me/tetris_admino_bot)
-"""
 
     
     TIME = """
-**ᴄʜᴏᴏsᴇ  ᴠᴀʟɪᴅɪᴛʏ  ғᴏʀ  ʏᴏᴜʀ  ᴘʟᴀɴ  ғʀᴏᴍ  ʙᴇʟᴏᴡ👇  ʙᴜᴛᴛᴏɴ,  ᴘʟᴀɴ  ᴅᴇᴛᴀɪʟs  ᴀʙᴏᴠᴇ**☝🏻
-
 note-  automated  payment  interface  is  active
+
+**ᴀʀᴇ  ʏᴏᴜ  ғʀᴏᴍ  ɪɴᴅɪᴀ , ᴘʟᴇᴀsᴇ  ᴄʜᴏᴏsᴇ  ʏᴇs  ᴏʀ  ɴᴏ**
+
+👇🏻
 """
     BTIME = """
 **ᴄʜᴏᴏsᴇ  ᴠᴀʟɪᴅɪᴛʏ  ғᴏʀ  ʏᴏᴜʀ  ᴘʟᴀɴ  ғʀᴏᴍ  ʙᴇʟᴏᴡ👇  ʙᴜᴛᴛᴏɴ,  ᴘʟᴀɴ  ᴅᴇᴛᴀɪʟs  ᴀʙᴏᴠᴇ**☝🏻
@@ -183,19 +146,7 @@ note-  automated  payment  interface  is  active
 note-  automated  payment  interface  is  active
 """
     
-    BOT_STATUS = """
-<i>**ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ**</i> v-1.6.2
 
-- version cheked `{}` ago
-- `{}` users started the bot till now
-- `{}` users active live now
-- avrg 577 regular users
-- premium users count - 94
-- `{}` RAM held in bot
-- `{}` cache ready to clear
-
-<i>**ᴅᴀᴛᴀs  ᴀʀᴇ  ʀᴇᴀʟ  ᴛɪᴍᴇ  ᴜᴘᴅᴀᴛᴇᴅ**</i>
-"""
 
     DIGITAL_METADATA = """
 <i>**ᴍᴇᴛᴀᴅᴀᴛᴀ  sᴇᴛᴛɪɴɢ  ᴛᴜᴛᴏʀɪᴀʟ**</i>
@@ -226,14 +177,7 @@ note-  automated  payment  interface  is  active
     #⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @RknDeveloper🙏🥲
     # ᴡʜᴏᴇᴠᴇʀ ɪs ᴅᴇᴘʟᴏʏɪɴɢ ᴛʜɪs ʀᴇᴘᴏ ɪs ᴡᴀʀɴᴇᴅ ⚠️ ᴅᴏ ɴᴏᴛ ʀᴇᴍᴏᴠᴇ ᴄʀᴇᴅɪᴛs ɢɪᴠᴇɴ ɪɴ ᴛʜɪs ʀᴇᴘᴏ #ғɪʀsᴛ ᴀɴᴅ ʟᴀsᴛ ᴡᴀʀɴɪɴɢ ⚠️
-    DEV_TXT = """<i>**ᴀᴅᴠᴇʀᴛɪsᴇ**</i>  your  content  at  our  bot  👆🏻<i>**ʟɪᴋᴇ  ᴛʜɪs**</i>
 
-starting at only 5<i>**ʀs / ᴅᴀʏ**</i>
-
-contact  <i>**ᴀᴅᴍɪɴ**</i>  for more info and payment
-
-click 👇🏻here to check bot users engagement """
-    # ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
     
 
@@ -253,7 +197,7 @@ click 👇🏻here to check bot users engagement """
 """
     
     RKN_PROGRESS = """\n
-[🧨](https://telegra.ph/file/a10607f63654828a06194.mp4)**sᴘᴇᴇᴅ-** {3}/s                    [unlock 3x speed](https://telegra.ph/How-to-increase-speed-08-28)
+[🧨](https://telegra.ph/file/a10607f63654828a06194.mp4)**sᴘᴇᴇᴅ-** {3}/s
 📦**ꜱɪᴢᴇ-**  {1} of {2}
 ⏳**ᴇᴛᴀ-** {4}"""
 
