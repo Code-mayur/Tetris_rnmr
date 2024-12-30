@@ -260,39 +260,53 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.DIGITAL_METADATA,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-             InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "help")]])) 
+             InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "help")]]))
+
+
 
     elif data == "speed":
-        await query.answer("💸ʙ𝗎ʏ  ᴘʀᴇᴍɪᴜᴍ  &  ɢᴇᴛ  2𝗑  ᴅᴡɴʟᴅ  𝗌ᴘᴇᴇᴅ \n\nғʀᴇᴇ  ᴘʟᴀɴ  - upto 6mb/s \nᴘʀᴇᴍɪᴜᴍ  - upto 12mb/s \n\n* also speed varries due to server load , net connectivity , hosting , file extension etc.", show_alert=True)
+        await query.answer(
+            "💸ʙ𝗎ʏ ᴘʀᴇᴍɪᴜᴍ & ɢᴇᴛ 2𝗑 ᴅᴡɴʟᴅ 𝗌ᴘᴇᴇᴅ \n\n"
+            "ғʀᴇᴇ ᴘʟᴀɴ - upto 6mb/s \n"
+            "ᴘʀᴇᴍɪᴜᴍ - upto 12mb/s \n\n"
+            "* Also speed varies due to server load, net connectivity, hosting, file extension, etc.",
+            show_alert=True
+        )
 
     elif data == "No":
-        await query.answer("📌 ɪғ  ʏᴏᴜ  ᴀʀᴇ  ɴᴏᴛ  ғʀᴏᴍ  ɪɴᴅɪᴀ  ᴘʟᴇᴀ𝗌ᴇ  ᴄᴏɴᴛᴀᴄᴛ  ᴀᴅᴍɪɴ  ғᴏʀ  ᴏᴛʜᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴍᴇᴛʜᴏᴅ", show_alert=True)
+        await query.answer(
+            "📌 ɪғ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ғʀᴏᴍ ɪɴᴅɪᴀ, ᴘʟᴇᴀ𝘀ᴇ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ.",
+            show_alert=True
+        )
 
     elif data == "offer":
-        await query.answer("ᴄᴜʀʀᴇɴᴛ  ᴏғғᴇʀ 🎊 \n\n🎉ᴏғғᴇʀ 1\nBuy  3  month  plan  ,  save  20₹  also  get  upto  10  days  extra  free\n\n🎉ᴏғғᴇʀ 2 \nBuy  life  time  validity  plan  at  399₹  and  get  100₹  refund  instant  by  UPI (only for first time buyer) *\n\n*dont  worry  all  payments  are  safe , and  automatically proceed .", show_alert=True)
-                
+        await query.answer(
+            "ᴄᴜʀʀᴇɴᴛ ᴏғғᴇʀ 🎊 \n\n"
+            "🎉ᴏғғᴇʀ 1:\nBuy 3-month plan, save ₹20, and get up to 10 days extra free.\n\n"
+            "🎉ᴏғғᴇʀ 2:\nBuy a lifetime validity plan at ₹399 and get ₹100 refund instantly by UPI (only for first-time buyers).\n\n"
+            "* All payments are safe and processed automatically.",
+            show_alert=True
+        )
+
     elif data == "status":
-    # Fetching bot status data
+        # Fetching bot status data
         total_users = await db.total_users_count()
-        uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - client.uptime))    
+        uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - client.uptime))
         recv = humanbytes(psutil.net_io_counters().bytes_recv)
         free_space = humanbytes(shutil.disk_usage(".").free)
         random_number = random.randint(5, 15)
-        
+
         bot_status = (
-            f"🛜 ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ v-1.6.2\n\n"
-            f"⌔ version checked {uptime} ago\n"
+            f"🛜 ʙᴏᴛ ᴇɴɢᴀɢᴇᴍᴇɴᴛ ᴅᴀᴛᴀ v-1.6.2\n\n"
+            f"⌔ Version checked {uptime} ago\n"
             f"⌔ {total_users} users started the bot till now\n"
             f"⌔ {random_number} users active live now\n"
-            f"⌔ avrg 582 regular users\n"
-            f"⌔ premium users count - 96\n"
-            f"⌔ {free_space} Gb RAM held in bot\n"
-            f"⌔ {recv} Gb cache ready to clear"
+            f"⌔ Average 582 regular users\n"
+            f"⌔ Premium users count - 96\n"
+            f"⌔ {free_space} GB of free disk space\n"
+            f"⌔ {recv} GB of data cached and ready to clear"
         )
-        await query.answer(
-            text=bot_status,
-            show_alert=True  # Set this to True for an alert-style popup, False for a toast-style popup
-        )
+
 
     elif data == "final":
         # Send the user's ID and name to the log channel
