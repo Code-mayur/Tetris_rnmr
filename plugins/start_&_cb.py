@@ -14,8 +14,8 @@ upgrade_button = InlineKeyboardMarkup([
 
 start_button = InlineKeyboardMarkup([
     [InlineKeyboardButton('ᴄʜᴇᴄᴋ  ᴍᴏʀᴇ  ᴜsᴇғᴜʟʟ  ʙᴏᴛs🤖', callback_data='bots')],
-    [InlineKeyboardButton('🪧ʙᴏᴛ  ɪɴғᴏ', callback_data='status'),
-     InlineKeyboardButton('ʜᴏᴡ  ᴛᴏ  ᴇᴅɪᴛ📐', callback_data='help')],
+    [InlineKeyboardButton('ϟ ʙᴏᴛ  sᴛᴀᴛs', callback_data='status'),
+     InlineKeyboardButton('ʜᴏᴡ  ᴛᴏ  ᴇᴅɪᴛ ⎙', callback_data='help')],
     [InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ  ᴛᴏ  ᴘʀᴇᴍɪᴜᴍ🎟️', callback_data='upgrade')]
 ])
 
@@ -86,7 +86,7 @@ async def myplan(client, message):
 async def plans(client, message):
     user = message.from_user
     free_trial_status = await db.get_free_trial_status(user.id)
-    image_url = "https://envs.sh/THT.jpg"
+    image_url = "https://envs.sh/o7w.jpg"
     
     if not await db.has_premium_access(user.id):
         if not free_trial_status:
@@ -114,7 +114,7 @@ async def cb_handler(client, query: CallbackQuery):
 
     elif data == "upgrade":  # This corresponds to the "Advertise with Us" button
         # Changing to the specific advertisement image
-        new_image_path = "https://envs.sh/THT.jpg"  # Replace this with the actual path to the new image
+        new_image_path = "https://envs.sh/o7w.jpg"  # Replace this with the actual path to the new image
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.UPGRADE),  # Assuming rkn.ADVERTISE_CAPTION holds your caption text
             reply_markup=upgrade_button         
@@ -181,7 +181,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("1  Month  -  49₹", callback_data="mon")],
                 [InlineKeyboardButton("3  Month  -  129₹", callback_data="tmon")],
                 [InlineKeyboardButton("Life time  -  399₹", callback_data="life")],
-                [InlineKeyboardButton("🎉ᴡᴀɴᴛ  ᴅɪsᴄᴏᴜɴᴛ,  ᴄʜᴇᴄᴋ  ᴏғғᴇʀ  ʜᴇʀᴇ🎉", callback_data="offer")
+                [InlineKeyboardButton("ϟ ᴡᴀɴᴛ  ᴅɪsᴄᴏᴜɴᴛ,  ᴄʜᴇᴄᴋ  ᴏғғᴇʀ  ʜᴇʀᴇ ϟ", callback_data="offer")
             ]])
         )
 
@@ -224,7 +224,7 @@ async def cb_handler(client, query: CallbackQuery):
         )
 
     elif data == "mon2":
-        new_image_path = "https://envs.sh/S5B.jpg"
+        new_image_path = "https://envs.sh/o7i.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.FIFT),
             reply_markup=InlineKeyboardMarkup([[
@@ -232,7 +232,7 @@ async def cb_handler(client, query: CallbackQuery):
 
       
     elif data == "tmon2":
-        new_image_path = "https://envs.sh/S5n.jpg"
+        new_image_path = "https://envs.sh/o7b.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.MONT),
             reply_markup=InlineKeyboardMarkup([[
@@ -240,7 +240,7 @@ async def cb_handler(client, query: CallbackQuery):
 
 
     elif data == "life2":
-        new_image_path = "https://envs.sh/S5p.jpg"
+        new_image_path = "https://envs.sh/o7P.jpg"
         await query.message.edit_media(
             media=InputMediaPhoto(new_image_path, caption=rkn.LIFE),
             reply_markup=InlineKeyboardMarkup([[
@@ -263,13 +263,13 @@ async def cb_handler(client, query: CallbackQuery):
              InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "help")]])) 
 
     elif data == "speed":
-        await query.answer("❌ Only 𝖯𝗋𝖾𝗆𝗂𝗎𝗆 **ᴜsᴇʀs** can toggle metadata.", show_alert=True)
+        await query.answer("💸ʙ𝗎ʏ  ᴘʀᴇᴍɪᴜᴍ  &  ɢᴇᴛ  2𝗑  ᴅᴡɴʟᴅ  𝗌ᴘᴇᴇᴅ \n\nғʀᴇᴇ  ᴘʟᴀɴ  - upto 6mb/s \nᴘʀᴇᴍɪᴜᴍ  - upto 12mb/s \n\n* also speed varries due to server load , net connectivity , hosting , file extension etc.", show_alert=True)
 
     elif data == "No":
-        await query.answer(" 𝗽𝗿𝗲", show_alert=True)
+        await query.answer("📌 ɪғ  ʏᴏᴜ  ᴀʀᴇ  ɴᴏᴛ  ғʀᴏᴍ  ɪɴᴅɪᴀ  ᴘʟᴇᴀ𝗌ᴇ  ᴄᴏɴᴛᴀᴄᴛ  ᴀᴅᴍɪɴ  ғᴏʀ  ᴏᴛʜᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ᴍᴇᴛʜᴏᴅ", show_alert=True)
 
     elif data == "offer":
-        await query.answer("❌ Only premium users can toggle metadata.", show_alert=True)
+        await query.answer("ᴄᴜʀʀᴇɴᴛ  ᴏғғᴇʀ 🎊 \n\n🎉ᴏғғᴇʀ 1\nBuy  3  month  plan  ,  save  20₹  also  get  upto  10  days  extra  free\n\n🎉ᴏғғᴇʀ 2 \nBuy  life  time  validity  plan  at  399₹  and  get  100₹  refund  instant  by  UPI (only for first time buyer) *\n\n*dont  worry  all  payments  are  safe , and  automatically proceed .", show_alert=True)
                 
     elif data == "status":
     # Fetching bot status data
@@ -280,29 +280,18 @@ async def cb_handler(client, query: CallbackQuery):
         random_number = random.randint(5, 15)
         
         bot_status = (
-            f"🤖 **Bot Status**:\n"
-            f"⏱ Uptime: {uptime}\n"
-            f"👥 Total Users: {total_users}\n"
-            f"📊 Random Number: {random_number}\n"
-            f"💾 Free Space: {free_space}\n"
-            f"📡 Data Received: {recv}"
+            f"🛜 ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ  ᴅᴀᴛᴀ v-1.6.2\n\n"
+            f"⌔ version checked {uptime} ago\n"
+            f"⌔ {total_users} users started the bot till now\n"
+            f"⌔ {random_number} users active live now\n"
+            f"⌔ avrg 582 regular users\n"
+            f"⌔ premium users count - 96\n"
+            f"⌔ {free_space} Gb RAM held in bot\n"
+            f"⌔ {recv} Gb cache ready to clear"
         )
         await query.answer(
             text=bot_status,
             show_alert=True  # Set this to True for an alert-style popup, False for a toast-style popup
-        )
-        
-    elif data == "source_code":  # This corresponds to the "Advertise with Us" button
-        # Changing to the specific advertisement image
-        new_image_path = "https://envs.sh/TH6.jpg"  # Replace this with the actual path to the new image
-        await query.message.edit_media(
-            media=InputMediaPhoto(new_image_path, caption=rkn.DEV_TXT),  # Assuming rkn.ADVERTISE_CAPTION holds your caption text
-            reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ  ᴀᴅᴍɪɴ", url="https://t.me/Tetris_admino_bot")
-            ],[
-                InlineKeyboardButton("ʙᴏᴛ  ᴇɴɢᴀɢᴇᴍᴇɴᴛ", callback_data = "status"),
-                InlineKeyboardButton("◀️ʙᴀᴄᴋ", callback_data = "start")
-                 ]])          
         )
 
     elif data == "final":
