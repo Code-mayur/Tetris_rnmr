@@ -266,7 +266,7 @@ async def cb_handler(client, query: CallbackQuery):
 
     elif data == "speed":
         await query.answer(
-            "💸ʙ𝗎ʏ ᴘʀᴇᴍɪᴜᴍ & ɢᴇᴛ 2𝗑 ᴅᴡɴʟᴅ 𝗌ᴘᴇᴇᴅ \n\n"
+            "💸ʙ𝗎ʏ  ᴘʀᴇᴍɪᴜᴍ  &  ɢᴇᴛ  2𝗑  ᴅᴡɴʟᴅ  𝗌ᴘᴇᴇᴅ\n\n"
             "ғʀᴇᴇ ᴘʟᴀɴ - upto 6mb/s \n"
             "ᴘʀᴇᴍɪᴜᴍ - upto 12mb/s \n\n"
             "* Also speed varies due to server load, net connectivity, hosting, file extension, etc.",
@@ -275,14 +275,14 @@ async def cb_handler(client, query: CallbackQuery):
 
     elif data == "n":
         await query.answer(
-            "📌If  you  are  not  from  india , then  contact  admin  for  other  payment  method",
+            "📌If  you  ⟳ ⌔ are  not  from  india , then  contact  admin  for  other  payment  method",
             show_alert=True
         )
 
     elif data == "o":
         await query.answer(
-            "🎉Current offer🎊\n\n"
-            "Buy lifetime validity plan at ₹399 and get ₹100 refund instantly by UPI (only for first-time buyers)",
+            "🎉ᴄᴜʀʀᴇɴᴛ  ᴏғғᴇᴛ🎊\n\n"
+            "Buy  lifetime  validity  plan  at  ₹399  and  get  ₹100  refund  instantly  by  UPI  (only for first-time buyers)",
             show_alert=True
         )
 
@@ -303,6 +303,7 @@ async def cb_handler(client, query: CallbackQuery):
             f"- {total_users}/582 regular users\n"
             f"- {random_number} users online\n- 96 premium users\n"
             f"- RAM ~ {free_space} , Cache ~ {recv}"
+            f"⚡ REAL  TIME  UPDATED  DATA
         )
 
     # Sending the popup message
