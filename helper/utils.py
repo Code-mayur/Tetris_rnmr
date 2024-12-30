@@ -29,7 +29,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
         )
         try:
             inline_buttons = [
-                [InlineKeyboardButton("⚡ɪɴᴄʀᴇᴀsᴇ sᴘᴇᴇᴅ", callback_data="close"),
+                [InlineKeyboardButton("⚡ᴇᴅɪᴛ ғᴀsᴛᴇʀ", callback_data="close"),
                  InlineKeyboardButton("❌ᴄᴀɴᴄᴇʟ ᴛᴀsᴋ", callback_data="speed")]
             ]
             await message.edit(
