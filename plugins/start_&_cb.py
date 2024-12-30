@@ -281,10 +281,8 @@ async def cb_handler(client, query: CallbackQuery):
 
     elif data == "o":
         await query.answer(
-            "offer\n"
-            "Buy 3-month plan, save ₹20, and get up to 10 days extra free.\n\n"
-            "Buy a lifetime validity plan at ₹399 and get ₹100 refund instantly by UPI (only for first-time buyers).\n\n"
-            "All payments are safe and processed automatically.",
+            "🎉Current offer🎊\n\n"
+            "Buy lifetime validity plan at ₹399 and get ₹100 refund instantly by UPI (only for first-time buyers)",
             show_alert=True
         )
 
@@ -300,12 +298,11 @@ async def cb_handler(client, query: CallbackQuery):
 
     # Preparing the bot status message
         bot_status = (
-            f"🛜 BOT  ENGAGEMENT  STATS v-1.7.0 \n\n"
-            f"- version checked {uptime} ago\n"
-            f"- {total_users} users started the bot\n- 582 regular users\n"
-            f"- {random_number} users active live now\n- premium users count - 96\n"
-            f"- {free_space} RAM held in bot\n"
-            f"- {recv} cache ready to clear"
+            f"🛜 BOT  ACTIVITY  LOG v-1.7.0 \n\n"
+            f"- Updation {uptime} ago\n"
+            f"- {total_users}/582 regular users\n"
+            f"- {random_number} users online\n- 96 premium users\n"
+            f"- RAM ~ {free_space} , Cache ~ {recv}"
         )
 
     # Sending the popup message
