@@ -37,7 +37,7 @@ async def handle_metadata(bot: Client, message: Message):
 
     button_layout = InlineKeyboardMarkup(TRUE if current_mode else FALSE)
     await message.reply_text(
-        f"Your Current Metadata:-\n\n➜ `{current_metadata}`",
+        f"**ʏᴏᴜʀ  ᴄᴜʀʀᴇɴᴛ  ᴍᴇᴛᴀᴅᴀᴛᴀ**:-\n\n➜ `{current_metadata}` \n\n**ʀᴇsᴇᴛ  ᴅᴀɪʟʏ  sᴏ  ᴘʟᴇᴀsᴇ  ᴄʜᴇᴄᴋ  ʙᴇғᴏʀᴇ  ᴇᴅɪᴛ**",
         reply_markup=button_layout
     )
 
@@ -53,7 +53,7 @@ async def query_metadata(bot: Client, query: CallbackQuery):
     if data.startswith('metadata_'):
         if not is_premium:
             # Restrict toggle for non-premium users
-            await query.answer("❌ Only premium users can toggle metadata.", show_alert=True)
+            await query.answer("❌ Only premium users can use metadata features", show_alert=True)
             return
 
         # Toggle metadata mode for premium users
@@ -65,7 +65,7 @@ async def query_metadata(bot: Client, query: CallbackQuery):
         button_layout = InlineKeyboardMarkup(TRUE if dummy_metadata_mode[user_id] else FALSE)
 
         await query.message.edit(
-            f"Your Current Metadata:-\n\n➜ `{current_metadata}`",
+            f"**ʏᴏᴜʀ  ᴄᴜʀʀᴇɴᴛ  ᴍᴇᴛᴀᴅᴀᴛᴀ:-\n\n➜ `{current_metadata}`  \n\n**ʀᴇsᴇᴛ  ᴅᴀɪʟʏ  sᴏ  ᴘʟᴇᴀsᴇ  ᴄʜᴇᴄᴋ  ʙᴇғᴏʀᴇ  ᴇᴅɪᴛ**",
             reply_markup=button_layout
         )
 
@@ -80,7 +80,7 @@ async def query_metadata(bot: Client, query: CallbackQuery):
             # Prompt user to send custom metadata
             metadata = await bot.ask(
                 text=(
-                    "**Send your custom metadata code:**\n\n"
+                    "**sᴇɴᴅ  ʏᴏᴜʀ  ᴄᴜsᴛᴏᴍ  ᴍᴇᴛᴀᴅᴀᴛᴀ  ᴄᴏᴅᴇ\n\nᴇx -**  `-map 0 -c:s copy -c:a copy -c:v copy -metadata title=Powered By:- @Tetris_botz -metadata author= @tetris_admino_bot -metadata:s:s title= Subtitled By :- @Tetris_Botz -metadata:s:a title= audio By :- @tetris_admino_bot -metadata:s:v title= video by :- @Tetris_Botz`\n\n"
                     "➔ Maintain the required format.\n"
                     "➔ You can customize fields like `title`, `author`, etc."
                 ),
@@ -89,13 +89,13 @@ async def query_metadata(bot: Client, query: CallbackQuery):
                 timeout=60
             )
             if not validate_metadata(metadata.text):
-                raise ValueError("Invalid metadata structure")
+                raise ValueError("**❌ ɪɴᴠᴀʟɪᴅ  ᴍᴇᴛᴀᴅᴀᴛᴀ  ᴄᴏᴅᴇ  sᴛʀᴜᴄᴛᴜʀᴇ , ᴘʟᴇᴀsᴇ  ᴅᴏ  ᴛʜᴇ  ᴘʀᴏᴄᴇss  ᴀɢᴀɪɴ**")
 
             # Save the custom metadata
             dummy_metadata_code[user_id] = metadata.text.strip()
-            await bot.send_message(user_id, "✅ **Custom metadata set successfully!**")
+            await bot.send_message(user_id, "✅ **ᴄᴏᴅᴇ  ɪs  ᴅᴇᴛᴇᴄᴛᴇᴅ  ᴀɴᴅ  sᴇᴛ  sᴜᴄᴄᴇssғᴜʟʟʏ**")
         except ListenerTimeout:
-            await bot.send_message(user_id, "⚠️ **Request timed out. Please try again by sending** /metadata.")
+            await bot.send_message(user_id, "⚠️ **ʀᴇǫᴜᴇsᴛ  ᴛɪᴍᴇᴅ  ᴏᴜᴛ  ᴘʟᴇᴀsᴇ  ᴅᴏ  ᴛʜᴇ  ᴘʀᴏᴄᴇss  ᴀɢᴀɪɴ  ʙʏ  sᴇɴᴅɪɴɢ** /metadata  **ᴄᴍɴᴅ**")
         except ValueError as ve:
             await bot.send_message(user_id, f"⚠️ **Error:** {str(ve)}\n\nPlease follow the correct metadata format.")
         except Exception as e:
