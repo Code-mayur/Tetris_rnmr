@@ -303,7 +303,7 @@ async def cb_handler(client, query: CallbackQuery):
             f"- {total_users}/582 regular users\n"
             f"- {random_number} users online\n- 96 premium users\n"
             f"- RAM ~ {free_space} , Cache ~ {recv}"
-            f"⚡ REAL  TIME  UPDATED  DATA
+            f"⚡ REAL  TIME  UPDATED  DATA"
         )
 
     # Sending the popup message
