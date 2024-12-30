@@ -264,7 +264,7 @@ async def cb_handler(client, query: CallbackQuery):
 
 
 
-    elif data == "n":
+    elif data == "speed":
         await query.answer(
             "💸ʙ𝗎ʏ ᴘʀᴇᴍɪᴜᴍ & ɢᴇᴛ 2𝗑 ᴅᴡɴʟᴅ 𝗌ᴘᴇᴇᴅ \n\n"
             "ғʀᴇᴇ ᴘʟᴀɴ - upto 6mb/s \n"
@@ -273,18 +273,18 @@ async def cb_handler(client, query: CallbackQuery):
             show_alert=True
         )
 
-    elif data == "speed":
+    elif data == "n":
         await query.answer(
-            "hhhhvvnmnnnnbvhhmmmmmmmmkhvccvvhbbb",
+            "📌If  you  are  not  from  india , then  contact  admin  for  other  payment  method",
             show_alert=True
         )
 
     elif data == "o":
         await query.answer(
-            "\n\n"
+            "offer\n"
             "Buy 3-month plan, save ₹20, and get up to 10 days extra free.\n\n"
             "Buy a lifetime validity plan at ₹399 and get ₹100 refund instantly by UPI (only for first-time buyers).\n\n"
-            "* All payments are safe and processed automatically.",
+            "All payments are safe and processed automatically.",
             show_alert=True
         )
 
@@ -300,12 +300,12 @@ async def cb_handler(client, query: CallbackQuery):
 
     # Preparing the bot status message
         bot_status = (
-            f"🤖 **Bot Status**:\n"
-            f"⏱ Uptime: {uptime}\n"
-            f"👥 Total Users: {total_users}\n"
-            f"📊 Random Number: {random_number}\n"
-            f"💾 Free Space: {free_space}\n"
-            f"📡 Data Received: {recv}"
+            f"🛜 BOT  ENGAGEMENT  STATS v-1.7.0 \n\n"
+            f"- version checked {uptime} ago\n"
+            f"- {total_users} users started the bot\n- 582 regular users\n"
+            f"- {random_number} users active live now\n- premium users count - 96\n"
+            f"- {free_space} RAM held in bot\n"
+            f"- {recv} cache ready to clear"
         )
 
     # Sending the popup message
