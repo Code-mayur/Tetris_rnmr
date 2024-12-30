@@ -290,7 +290,7 @@ async def cb_handler(client, query: CallbackQuery):
 
 
 
-    elif data == "stats":
+    elif data == "status":
     # Fetching bot status data
         total_users = await db.total_users_count()
         uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - client.uptime))
